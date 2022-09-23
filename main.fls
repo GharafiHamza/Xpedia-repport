@@ -245,6 +245,9 @@ INPUT ./resources/adulte_model_train.png
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/pedia_model_train.png
 INPUT ./resources/pedia_model_train.png
 INPUT ./resources/pedia_model_train.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/log_arc.jpg
+INPUT ./resources/log_arc.jpg
+INPUT ./resources/log_arc.jpg
 OUTPUT /home/gharafi/Documents/My Repports/Xpedia Report/realisation.aux
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/realisation.tex
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/realisation.tex

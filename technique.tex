@@ -4,6 +4,9 @@
 La conception et la modélisation sont à la base du projet. Les connaître nous permettra de bien définir les autres composantes et besoins de ce projet. Cela comprend les choix techniques et les outils informatiques utilisés pour obtenir des résultats satisfaisants. C'est un projet  structuré avec des composants interconnectés pour un excellent flux de travail.
 
 \section{Conception et modelisation}
+Maintenant que nous avons décrit les phases du problème, concentrons-nous sur les phases fondamentales du cycle de vie du logiciel: les phases de conception et de modélisation. Le but de cette phase est de dériver une spécification pour l'architecture du système. 
+Cette phase conduit à la conception et à la schématisation de classes et de séquences basées sur le langage de modélisation UML.
+
 Dans tout ce qui précède, nous pouvons remarquer une structure légèrement différente de celle que nous avons déjà montrée dans la section \ref{Solution_prop}.
     \subsection{Structure générale du projet}
     Pour construire une nouvelle structure, il faut s'appuyer sur les points issus du chapitre précédent.
@@ -33,7 +36,10 @@ Dans tout ce qui précède, nous pouvons remarquer une structure légèrement di
                     \includegraphics[width=0.8\textwidth]{class_dia.png}
                     \caption{Le diagramme de classe de l'application web Xpedia}\label{fig:class_dia}
                 \end{figure}
+
                 \item Diagrammes de séquence
+                
+                Un diagramme de séquence représente les objets impliqués dans une interaction particulière et les messages qu'ils échangent organisés par ordre chronologique.
                 \begin{enumerate}
                     \item Diagramme de séquence: cas d'authentification
                     \begin{figure}[H]
@@ -94,10 +100,42 @@ Dans tout ce qui précède, nous pouvons remarquer une structure légèrement di
         \caption{La schéma de créeation du modèle des radiographies adultes}\label{fig:pedia_model_schema}
     \end{figure}
 \section{Choix techniques}
-    choix techniques
+Cette partie est consacrée à la présentation de l'environnement matériel et logiciel utilisé pour développer la solution proposée. Expliquer les décisions techniques concernant les langages de programmation et les outils à utiliser.
     \subsection{Architecture logicielle}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\textwidth]{log_arc.jpg}
+        \caption{La schéma de logicielle de l'application web Xpedia}\label{fig:log_arc}
+    \end{figure}
+
+    \subsubsection{MERN stack}
+    \begin{enumerate}\bfseries
+        \item Atlas MongoDB
+        \item Express \& Node js
+        \item React
+    \end{enumerate}
+    \subsubsection{Heroku}
+    \subsubsection{VScode}
 
     \subsection{Architecture des réseaux de neurones}
+    \subsubsection{Python}
+    \subsubsection{Librairies}
+    \begin{enumerate}\bfseries
+        \item Numpy
+        \item Pandas
+        \item OpenCV
+        \item OS
+        \item Tensorflow
+        \item Keras
+        \item Matplotlib
+    \end{enumerate}
+    \subsubsection{IDEs}
+    \begin{enumerate}\bfseries
+        \item Jupyter
+        \item Google Colab pro+
+    \end{enumerate}
+    \subsubsection{MARWAN-HPC}
+
 
 \section{Bases de données}
     \subsection{CheXpertDB}\label{chexpertDB}

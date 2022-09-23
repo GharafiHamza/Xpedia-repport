@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.25)  23 SEP 2022 21:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.25)  23 SEP 2022 23:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -563,7 +563,7 @@ l.43     \chapter
 
  (/home/gharafi/Documents/My Repports/Xpedia Report/general_project_context.tex
 Chapitre 1.
-<./resources/icon_chu.png, id=357, 256.96pt x 256.96pt>
+<./resources/icon_chu.png, id=394, 256.96pt x 256.96pt>
 File: ./resources/icon_chu.png Graphic file (type png)
 <use ./resources/icon_chu.png>
 Package pdftex.def Info: ./resources/icon_chu.png  used on input line 11.
@@ -577,12 +577,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) h
                                                   \fi \fi 
 l.28 
       <./resources/icon_chu.png>] [10]
-<./resources/thorax_osseux.png, id=378, 702.625pt x 671.50874pt>
+<./resources/thorax_osseux.png, id=415, 702.625pt x 671.50874pt>
 File: ./resources/thorax_osseux.png Graphic file (type png)
 <use ./resources/thorax_osseux.png>
 Package pdftex.def Info: ./resources/thorax_osseux.png  used on input line 102.
 (pdftex.def)             Requested size: 187.89914pt x 179.57814pt.
-<./resources/dia_mediastinal.png, id=379, 2006.49625pt x 1379.1525pt>
+<./resources/dia_mediastinal.png, id=416, 2006.49625pt x 1379.1525pt>
 File: ./resources/dia_mediastinal.png Graphic file (type png)
 <use ./resources/dia_mediastinal.png>
 Package pdftex.def Info: ./resources/dia_mediastinal.png  used on input line 109.
@@ -593,12 +593,12 @@ Package pdftex.def Info: ./resources/dia_mediastinal.png  used on input line 109
                                                   \fi \fi 
 l.112             \subsubsection
                                 {Les differences radio anatomiques entre les... <./resources/thorax_osseux.png>]
-<./resources/differences.png, id=384, 2006.49625pt x 975.645pt>
+<./resources/differences.png, id=421, 2006.49625pt x 975.645pt>
 File: ./resources/differences.png Graphic file (type png)
 <use ./resources/differences.png>
 Package pdftex.def Info: ./resources/differences.png  used on input line 118.
 (pdftex.def)             Requested size: 281.85587pt x 137.05086pt.
-<./resources/thymus_enfant.png, id=385, 2006.49625pt x 1507.6325pt>
+<./resources/thymus_enfant.png, id=422, 2006.49625pt x 1507.6325pt>
 File: ./resources/thymus_enfant.png Graphic file (type png)
 <use ./resources/thymus_enfant.png>
 Package pdftex.def Info: ./resources/thymus_enfant.png  used on input line 126.
@@ -614,7 +614,7 @@ l.129                 A
                                                   \fi \fi 
 l.129                 A
                        spects radiographiques normaux du thymus : aspect ond... <./resources/dia_mediastinal.png> <./resources/differences.png>]
-<./resources/tracheal.png, id=394, 2006.49625pt x 892.33376pt>
+<./resources/tracheal.png, id=431, 2006.49625pt x 892.33376pt>
 File: ./resources/tracheal.png Graphic file (type png)
 <use ./resources/tracheal.png>
 Package pdftex.def Info: ./resources/tracheal.png  used on input line 137.
@@ -630,7 +630,7 @@ l.150
                                                   \fi \fi 
 l.150 
        <./resources/thymus_enfant.png> <./resources/tracheal.png>]
-<./resources/sol_prop.jpg, id=409, 1787.67876pt x 561.09625pt>
+<./resources/sol_prop.jpg, id=446, 1787.67876pt x 561.09625pt>
 File: ./resources/sol_prop.jpg Graphic file (type jpg)
 <use ./resources/sol_prop.jpg>
 Package pdftex.def Info: ./resources/sol_prop.jpg  used on input line 199.
@@ -650,7 +650,7 @@ Chapitre 2.
 
 
 ]
-<./resources/perceptron.png, id=449, 1094.0875pt x 602.25pt>
+<./resources/perceptron.png, id=486, 1094.0875pt x 602.25pt>
 File: ./resources/perceptron.png Graphic file (type png)
 <use ./resources/perceptron.png>
 Package pdftex.def Info: ./resources/perceptron.png  used on input line 36.
@@ -661,7 +661,7 @@ Package pdftex.def Info: ./resources/perceptron.png  used on input line 36.
                                                   \fi \fi 
 l.49 
       <./resources/perceptron.png>]
-<./resources/multi_layer_perce.png, id=455, 1109.14375pt x 884.30376pt>
+<./resources/multi_layer_perce.png, id=492, 1109.14375pt x 884.30376pt>
 File: ./resources/multi_layer_perce.png Graphic file (type png)
 <use ./resources/multi_layer_perce.png>
 Package pdftex.def Info: ./resources/multi_layer_perce.png  used on input line 81.
@@ -672,7 +672,7 @@ Package pdftex.def Info: ./resources/multi_layer_perce.png  used on input line 8
                                                   \fi \fi 
 l.88 
       <./resources/multi_layer_perce.png>]
-<./resources/conv_stand_arch.png, id=466, 1629.08624pt x 920.43875pt>
+<./resources/conv_stand_arch.png, id=503, 1629.08624pt x 920.43875pt>
 File: ./resources/conv_stand_arch.png Graphic file (type png)
 <use ./resources/conv_stand_arch.png>
 Package pdftex.def Info: ./resources/conv_stand_arch.png  used on input line 94.
@@ -687,90 +687,101 @@ l.102
 
  (/home/gharafi/Documents/My Repports/Xpedia Report/technique.tex
 Chapitre 3.
-<./resources/structure_gen.jpg, id=491, 1787.67876pt x 1119.18124pt>
+<./resources/structure_gen.jpg, id=528, 1787.67876pt x 1119.18124pt>
 File: ./resources/structure_gen.jpg Graphic file (type jpg)
 <use ./resources/structure_gen.jpg>
-Package pdftex.def Info: ./resources/structure_gen.jpg  used on input line 15.
+Package pdftex.def Info: ./resources/structure_gen.jpg  used on input line 18.
 (pdftex.def)             Requested size: 328.82707pt x 205.84987pt.
 [22
 
 
 
 ]
-<./resources/xpedia_arc.png, id=498, 1362.08875pt x 1547.7825pt>
+<./resources/xpedia_arc.png, id=535, 1362.08875pt x 1547.7825pt>
 File: ./resources/xpedia_arc.png Graphic file (type png)
 <use ./resources/xpedia_arc.png>
-Package pdftex.def Info: ./resources/xpedia_arc.png  used on input line 22.
+Package pdftex.def Info: ./resources/xpedia_arc.png  used on input line 25.
 (pdftex.def)             Requested size: 469.75502pt x 533.79662pt.
  [23pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.25         \subsubsection
+l.28         \subsubsection
                            {UML} <./resources/structure_gen.jpg>] [24pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.27 
+l.30 
       <./resources/xpedia_arc.png>]
-<./resources/class_dia.png, id=509, 1355.0625pt x 928.46875pt>
+<./resources/class_dia.png, id=546, 1355.0625pt x 928.46875pt>
 File: ./resources/class_dia.png Graphic file (type png)
 <use ./resources/class_dia.png>
-Package pdftex.def Info: ./resources/class_dia.png  used on input line 33.
+Package pdftex.def Info: ./resources/class_dia.png  used on input line 36.
 (pdftex.def)             Requested size: 375.80544pt x 257.4902pt.
-<./resources/cas_auth.png, id=510, 846.16125pt x 987.69pt>
+<./resources/cas_auth.png, id=547, 846.16125pt x 987.69pt>
 File: ./resources/cas_auth.png Graphic file (type png)
 <use ./resources/cas_auth.png>
-Package pdftex.def Info: ./resources/cas_auth.png  used on input line 41.
+Package pdftex.def Info: ./resources/cas_auth.png  used on input line 47.
 (pdftex.def)             Requested size: 234.8775pt x 274.15503pt.
  [25pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.44 
+l.50 
       <./resources/class_dia.png>]
-<./resources/cas_add.png, id=520, 817.0525pt x 891.33pt>
+<./resources/cas_add.png, id=557, 817.0525pt x 891.33pt>
 File: ./resources/cas_add.png Graphic file (type png)
 <use ./resources/cas_add.png>
-Package pdftex.def Info: ./resources/cas_add.png  used on input line 53.
+Package pdftex.def Info: ./resources/cas_add.png  used on input line 59.
 (pdftex.def)             Requested size: 234.8775pt x 256.22139pt.
  [26pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.56                 \end{enumerate}
+l.62                 \end{enumerate}
                                      <./resources/cas_auth.png>] [27pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.72 
+l.78 
       <./resources/cas_add.png>]
-<./resources/adulte_model_train.png, id=533, 1805.74625pt x 871.255pt>
+<./resources/adulte_model_train.png, id=571, 1805.74625pt x 871.255pt>
 File: ./resources/adulte_model_train.png Graphic file (type png)
 <use ./resources/adulte_model_train.png>
-Package pdftex.def Info: ./resources/adulte_model_train.png  used on input line 88.
+Package pdftex.def Info: ./resources/adulte_model_train.png  used on input line 94.
 (pdftex.def)             Requested size: 469.75502pt x 226.6539pt.
-<./resources/pedia_model_train.png, id=534, 1727.45375pt x 599.23875pt>
+<./resources/pedia_model_train.png, id=572, 1727.45375pt x 599.23875pt>
 File: ./resources/pedia_model_train.png Graphic file (type png)
 <use ./resources/pedia_model_train.png>
-Package pdftex.def Info: ./resources/pedia_model_train.png  used on input line 93.
+Package pdftex.def Info: ./resources/pedia_model_train.png  used on input line 99.
 (pdftex.def)             Requested size: 469.75502pt x 162.94872pt.
- [28]) [29pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) has been already used, duplicate ignored
+ [28]
+<./resources/log_arc.jpg, id=578, 1787.67876pt x 1119.18124pt>
+File: ./resources/log_arc.jpg Graphic file (type jpg)
+<use ./resources/log_arc.jpg>
+Package pdftex.def Info: ./resources/log_arc.jpg  used on input line 107.
+(pdftex.def)             Requested size: 469.75502pt x 294.08833pt.
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.61     \include{technique}
-                            pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) has been already used, duplicate ignored
+l.110 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.61     \include{technique}
-                             <./resources/adulte_model_train.png> <./resources/pedia_model_train.png>] [30]
+l.110 
+       <./resources/adulte_model_train.png> <./resources/pedia_model_train.png>] [30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.135         \item G
+                     oogle Colab pro+ <./resources/log_arc.jpg>]) [31]
 \openout2 = `realisation.aux'.
 
  (/home/gharafi/Documents/My Repports/Xpedia Report/realisation.tex
 Chapitre 4.
-) [31
+) [32
 
 
 
@@ -781,7 +792,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 938404FAC27DDB8A2175FD4FF098214C;4181.
+(rerunfilecheck)             Checksum: 00198D8E5B2F7EBD848AC988A524185B;4681.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -789,18 +800,18 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  ) 
 Here is how much of TeX's memory you used:
- 10517 strings out of 481239
- 173909 string characters out of 5920377
- 457285 words of memory out of 5000000
- 25415 multiletter control sequences out of 15000+600000
+ 10553 strings out of 481239
+ 174482 string characters out of 5920377
+ 457404 words of memory out of 5000000
+ 25429 multiletter control sequences out of 15000+600000
  541683 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,8n,35p,914b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
-Output written on "/home/gharafi/Documents/My Repports/Xpedia Report/main.pdf" (32 pages, 5370147 bytes).
+Output written on "/home/gharafi/Documents/My Repports/Xpedia Report/main.pdf" (33 pages, 5592631 bytes).
 PDF statistics:
- 640 PDF objects out of 1000 (max. 8388607)
- 555 compressed objects within 6 object streams
- 161 named destinations out of 1000 (max. 500000)
- 502 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 700 PDF objects out of 1000 (max. 8388607)
+ 612 compressed objects within 7 object streams
+ 182 named destinations out of 1000 (max. 500000)
+ 563 words of extra memory for PDF output out of 10000 (max. 10000000)
 
