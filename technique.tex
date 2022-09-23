@@ -1,0 +1,106 @@
+\chapter{Etude technique}
+
+\section*{Introduction}
+La conception et la modélisation sont à la base du projet. Les connaître nous permettra de bien définir les autres composantes et besoins de ce projet. Cela comprend les choix techniques et les outils informatiques utilisés pour obtenir des résultats satisfaisants. C'est un projet  structuré avec des composants interconnectés pour un excellent flux de travail.
+
+\section{Conception et modelisation}
+Dans tout ce qui précède, nous pouvons remarquer une structure légèrement différente de celle que nous avons déjà montrée dans la section \ref{Solution_prop}.
+    \subsection{Structure générale du projet}
+    Pour construire une nouvelle structure, il faut s'appuyer sur les points issus du chapitre précédent.
+
+    Pour ce faire, on doit utiliser une base de données secondaire. Il s'agit d'une grande base de données structurée de la population adulte, pour construire des modéles pré-entraînés sur des donnéees de la population adulte, Un phénomène décidément très proche du nôtre.
+    Après tous ces considérations on a trouver la structure du figure \ref{fig:structure_gen}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{structure_gen.jpg}
+        \caption{structure génerale du projet}\label{fig:structure_gen}
+    \end{figure}
+    \subsection{Application Web}
+        L'application Web est une API simple pour la collection et la visualisation de données, donc son architecture de base est également simple, c'est comme suit figure \ref{fig:xpedia_arc}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\textwidth]{xpedia_arc.png}
+            \caption{structure génerale de l'application web Xpedia}\label{fig:xpedia_arc}
+        \end{figure}
+        \subsubsection{UML}
+            UML (abréviation de Unified Modeling Language) est un langage de modélisation standardisé composé d'un ensemble de diagrammes intégrés qui aident les développeurs de systèmes et de logiciels à spécifier, visualiser et visualiser les artefacts des systèmes logiciels. .système. UML représente un ensemble éprouvé de meilleures pratiques techniques pour la modélisation de systèmes vastes et complexes et constitue une partie très importante du développement logiciel orienté objet et du processus de développement logiciel. UML utilise principalement une notation graphique pour représenter la conception de projets logiciels.
+
+            \begin{enumerate}
+                \item Diagramme de classe:
+                Notre diagramme de classe de  deux classes utilisateur et xray (cliché), notre but de cette application et de collectés les données (xrays), l'acteur qui va effectuer la collection est l'utilisateur:
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics[width=0.8\textwidth]{class_dia.png}
+                    \caption{Le diagramme de classe de l'application web Xpedia}\label{fig:class_dia}
+                \end{figure}
+                \item Diagrammes de séquence
+                \begin{enumerate}
+                    \item Diagramme de séquence: cas d'authentification
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=0.5\textwidth]{cas_auth.png}
+                        \caption{Le diagramme de séquence: cas d'authentification}\label{fig:cas_auth}
+                    \end{figure}
+
+                    Comme on peut le voir sur la figure \ref{fig:cas_auth}, l'authentification se fait à travers 2 opérations principales:
+                    \begin{itemize}[label=$\bullet$]
+                        \item l'utilisateur fournit le nom d'utilisateur et le mot de passe
+                        \item le système recoupe les informations fournies avec les données existantes dans la collection de l'utilisateur
+                    \end{itemize}
+                    \item Diagramme de séquence: cas d'ajouter un cliché
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=0.5\textwidth]{cas_add.png}
+                        \caption{Le diagramme de séquence: cas d'ajouter un cliché}\label{fig:cas_add}
+                    \end{figure}
+                \end{enumerate}
+            \end{enumerate}
+        
+    \subsection{Pipeline de données}
+    \paragraph*{Un pipeline de données est} une série d'étapes de traitement de données. Si les données ne sont pas actuellement chargées dans la plateforme de données, elles seront ingérées au début du pipeline. Ensuite, vous avez une séquence d'étapes où chaque étape fournit une sortie qui devient l'entrée de l'étape suivante. Cela continue jusqu'à ce que le pipeline soit terminé. Dans certains cas, des étapes indépendantes peuvent s'exécuter en parallèle.  
+    
+    Un pipeline de donnéesse compose de trois éléments principaux : une source, une ou plusieurs étapes de traitement et une destination. Dans certains pipelines de données, une destination peut être appelée un récepteur. Par exemple, un pipeline de données peut transmettre des données de votre application à un entrepôt de données, d'un lac de données à une base de données d'analyse ou à un système de traitement des paiements. Un pipeline de données peut également avoir la même source et le même récepteur, de sorte que le pipeline n'a besoin que de modifier l'ensemble de données. Chaque fois que des données sont traitées entre le point A et le point B (ou les points B, C, D), il existe un pipeline de données entre ces points.
+
+        \subsubsection{Integration}
+        L'intégration de données est le processus consistant à combiner des données provenant de différentes sources en une vue unique et unifiée. L'intégration commence par le processus d'ingestion et comprend des étapes telles que le nettoyage, le mappage ETL et la transformation. L'intégration des données permet finalement aux outils d'analyse de produire une intelligence économique efficace et exploitable.
+
+        Il n'existe pas d'approche universelle de l'intégration des données. Cependant, les solutions d'intégration de données impliquent généralement quelques éléments communs, notamment un réseau de sources de données, un serveur maître et des clients accédant aux données à partir du serveur maître.
+
+        Dans un processus d'intégration de données typique, le client envoie une demande de données au serveur maître. Le serveur maître reçoit ensuite les données nécessaires à partir de sources internes et externes. Les données sont extraites des sources, puis consolidées en un seul ensemble de données cohérent. Ceci est renvoyé au client pour utilisation.
+        \subsubsection{Transformation}
+        La transformation des données est le processus de transformation des données d'un format à un autre. Généralement, vous convertissez du format du système source au format requis par le système cible. Les transformations de  données font partie de la plupart des tâches d'intégration et de gestion des données, telles que : B. Gestion des données et stockage des données. 
+
+        En tant qu'étape du processus ELT/ETL, la transformation des données peut être qualifiée de « simple » ou de « complexe » selon le type de modifications qui doivent être apportées aux données avant qu'elles ne soient livrées à leur destination. Le processus de transformation des données peut être effectué à l'aide de l'automatisation, de l'administration manuelle ou d'une combinaison des deux.
+
+        \subsubsection{Réduction}
+        La réduction des données signifie la réduction de certains aspects des données, généralement le volume de données. La réduction peut également porter sur d'autres aspects tels que la dimensionnalité des données lorsque les données sont multidimensionnelles. La réduction de tout aspect des données implique généralement une réduction du volume de données.
+
+        La réduction des données n'a de sens en soi que si elle est associée à une certaine finalité. Le but à son tour dicte les exigences pour les techniques de réduction de données correspondantes. Un but naïf de la réduction des données est de réduire l'espace de stockage. Cela nécessite une technique pour compresser les données dans un format plus compact et également pour restaurer les données d'origine lorsque les données doivent être examinées. De nos jours, l'espace de stockage n'est peut-être pas la principale préoccupation et les besoins de réduction des données proviennent fréquemment des applications de base de données. Dans ce cas, le but de la réduction des données est d'économiser le coût de calcul ou le coût d'accès au disque dans le traitement des requêtes.
+        \subsubsection{Nettoyage}
+        Le nettoyage des données est le processus de réparation ou de suppression des données incorrectes, corrompues, mal formées, en double ou incomplètes dans un ensemble de données. La combinaison de plusieurs sources de données augmente le risque de dupliquer ou de mal étiqueter les données. Si les données sont erronées, même si elles semblent correctes, les résultats et les algorithmes ne seront pas fiables. Il n'existe aucun moyen absolu de dicter les étapes exactes du processus de nettoyage des données, car le processus est différent pour chaque ensemble de données. Cependant, il est important de définir un modèle pour votre processus de nettoyage des données et de vous assurer que vous le faites correctement à chaque fois.
+
+
+   
+    \subsection{Modèles de deeplearning}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\textwidth]{adulte_model_train.png}
+        \caption{La schéma de créeation du modèle des radiographies adultes}\label{fig:adulte_model_schema}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\textwidth]{pedia_model_train.png}
+        \caption{La schéma de créeation du modèle des radiographies adultes}\label{fig:pedia_model_schema}
+    \end{figure}
+\section{Choix techniques}
+
+    \subsection{Architecture logicielle}
+
+    \subsection{Architecture des réseaux de neurones}
+
+\section{Bases de données}
+    \subsection{CheXpertDB}\label{chexpertDB}
+    \subsection{XpediaDB}
+
+\section*{Conclusion}

@@ -1,0 +1,66 @@
+\documentclass[]{report}
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    linkcolor=black
+}
+\usepackage[nameinlink,noabbrev]{cleveref}
+\usepackage{graphicx}
+\usepackage{tocloft}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{float}
+
+\title{L'apport de l'inteligence artificielle sur les clichés de radiographie pédiatrique
+\\ {\Large Ecole National des Sciences Appliquées}}
+
+\author{GHARAFI Hamza}
+\date{2022}
+\graphicspath{ {./resources/} }
+
+\begin{document}
+
+    \newcommand{\listequationsname}{Liste des Equations}
+    \newlistof{myequations}{equ}{\listequationsname}
+    \newcommand{\myequations}[1]{%
+    \addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}\par}
+
+
+    \maketitle
+
+
+    \abstract{}
+    mon resumé\dots
+
+    \chapter*{Abstract}
+    My abstract goes here.
+
+    \chapter*{Remerciment}
+    Je remercie\dots
+    \clearpage
+    \tableofcontents
+    \clearpage
+    \listoffigures
+    \clearpage
+    \listoftables
+    \clearpage
+    
+   \listofmyequations
+
+
+    \include{general_project_context}
+    \include{deeplearning}
+    \include{technique}
+    \include{realisation}
+
+
+
+\end{document}
