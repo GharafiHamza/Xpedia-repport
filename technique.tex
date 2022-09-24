@@ -177,21 +177,29 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
     Heroku est une plate-forme de services cloud qui a gagné en popularité  ces dernières années. Heroku est si facile à utiliser qu'il est devenu le choix incontournable pour de nombreux projets de développement. 
     L'accent mis sur la prise en charge des applications centrées sur le client facilite le développement et le déploiement  des applications. Les entreprises utilisant Heroku peuvent se concentrer sur le perfectionnement de leurs applications, tandis que la plateforme Heroku gère le matériel et les serveurs. Ce n'est pas l'infrastructure qui les soutient.
 
-    \subsubsection{VScode}
+    \subsubsection{Visual Studio Code}
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.6\textwidth]{vscode.png}
         \caption{Logo de Visual Studio Code}\label{fig:vscode}
     \end{figure}
+    Visual Studio Code est un éditeur de code source léger mais puissant qui s'exécute sur votre bureau et est disponible sur Windows, macOS et Linux. Il offre un support intégré pour JavaScript, TypeScript et Node.js, et dispose d'un riche écosystème d'extensions pour d'autres langages et runtimes (C, C\#, Java, Python, PHP, Go, dotNET, etc.).
 
-    \subsection{Architecture des réseaux de neurones}
+    Visual Studio Code combine la simplicité d'un éditeur de code source avec de puissants outils de développement comme la complétion et le débogage de code IntelliSense. 
+ C'est avant tout un éditeur qui plie. Le cycle édition-construction-débogage est si fluide que vous passez moins de temps à vous occuper des environnements et plus de temps à concrétiser vos idées.
+
+    \subsection{Outils d'apprentissage automatique et de préparation des données}
     \subsubsection{Python}
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.6\textwidth]{python.png}
         \caption{Logo de Python}\label{fig:python}
     \end{figure}
+
+    Python est un langage de programmation polyvalent populaire qui peut être utilisé pour une grande variété d'applications. Il comprend des structures de données de haut niveau, un typage dynamique, une liaison dynamique et de nombreuses autres fonctionnalités qui aident à développer des applications aussi  complexes que  le "code de colle" qui relie les scripts et les composants. Vous pouvez également  effectuer des appels système pour presque tous les systèmes d'exploitation et les étendre pour exécuter du C ou du code écrit en C. En raison de son omniprésence et de sa capacité à s'exécuter sur presque toutes les architectures système, Python est un langage universel qui peut être utilisé dans une grande variété d'applications.
+
     \subsubsection{Librairies}
+    La bibliothèque standard de Python est très étendue et offre un large éventail de fonctionnalités. Cette bibliothèque contient des modules intégrés (écrits en C) qui permettent d'accéder à des fonctionnalités  système telles que les E/S de fichiers qui sont inaccessibles aux programmeurs Python, et des modules  Python qui fournissent des solutions standardisées à de nombreux problèmes quotidiens. programmation. Certains de ces modules sont explicitement conçus pour faciliter et améliorer la portabilité des programmes Python en faisant abstraction des spécificités de la plate-forme dans des API indépendantes de la plate-forme.
     \begin{enumerate}\bfseries
         \item Numpy
         \begin{figure}[H]
@@ -200,6 +208,15 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
             \caption{Logo de Numpy}\label{fig:numpy}
         \end{figure}
         \normalfont
+        NumPy est un package de traitement de tableau à usage général. Fournit des objets et des outils de tableau multidimensionnel hautes performances  pour manipuler ces tableaux. Package de base pour le calcul scientifique  Python. C'est un logiciel open source.Il contient diverses fonctionnalités dont ces importantes:
+        \begin{itemize}[label=$\bullet$]
+            \item Puissants objets de tableaux N-dimensionnels 
+            \item Fonctions sophistiquées (diffusion)
+            \item Outils d'intégration de code C/C et Fortran
+            \item Compétences utiles en algèbre linéaire, transformées de Fourier et nombres aléatoires
+        \end{itemize}  
+        
+        En plus de ses utilisations scientifiques évidentes, NumPy est un outil efficace Il peut également être utilisé comme  conteneur de données  multidimensionnel à usage général. Vous pouvez définir n'importe quel type de données  à l'aide de Numpy. Cela signifie que NumPy peut être intégré de manière transparente et rapide dans de nombreuses bases de données.
 
         \bfseries
         \item Pandas
@@ -209,6 +226,11 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
             \caption{Logo de Pandas}\label{fig:pandas}
         \end{figure}
         \normalfont
+        Pandas est l'un des outils de science des données et d'apprentissage automatique les plus utilisés pour nettoyer et analyser les données. 
+        Pandas est l'outil de choix pour traiter ces données désordonnées du monde réel.  pandas est l'un des packages Python open source basés sur NumPy. 
+        Le traitement des données avec pandas est très rapide et efficace en utilisant des séries et des dataframes pandas. Ces deux structures de données pandas sont utiles pour manipuler les données de différentes manières. 
+        En ce basant sur les fonctionnalités disponibles dans  pandas, nous pouvons dire que  pandas est le mieux adapté au traitement des données. Il peut gérer les données manquantes, nettoyer les données et prendre en charge plusieurs formats de fichiers. Cela signifie que vous pouvez lire et charger des données dans de nombreux formats tels que CSV, Excel, SQL, etc.
+
 
         \bfseries
         \item OpenCV
@@ -218,6 +240,9 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
             \caption{Logo de Open Computer Vision}\label{fig:opencv}
         \end{figure}
         \normalfont
+        OpenCV (Open Source Computer Vision Library) est une bibliothèque de logiciels open source de vision par ordinateur et d'apprentissage automatique. OpenCV a été développé pour fournir une infrastructure commune pour les applications de vision par ordinateur et  accélérer l'utilisation de la vision artificielle dans les produits commerciaux. OpenCV est un produit sous licence BSD, les entreprises peuvent donc facilement utiliser et  modifier  le code.
+        
+        La bibliothèque contient plus de 2500 algorithmes optimisés, y compris un ensemble complet d'algorithmes de vision par ordinateur et d'apprentissage automatique classiques et  de pointe. Ces algorithmes sont utilisés pour la détection et la reconnaissance de visages, l'identification d'objets, la classification du comportement humain dans les vidéos, le suivi de mouvement de caméra, le suivi d'objets en mouvement, l'extraction de modèles 3D d'objets, les nuages de points 3D à partir de caméras stéréo, Résolution d'images à travers des scènes, recherche d'images similaires dans des bases de données d'images, suppression des yeux rouges des images prises au flash, suivi des mouvements oculaires, détection de paysages, création de marqueurs à superposer avec la réalité augmentée, etc. OpenCV a une communauté de plus de 7 000 utilisateurs avec plus de 18 millions de téléchargements estimés. Cette bibliothèque est fréquemment utilisée par les entreprises, les groupes de recherche et les agences gouvernementales.
 
         \bfseries
         \item Tensorflow
@@ -227,6 +252,9 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
             \caption{Logo de Tensorflow}\label{fig:tensorflow}
         \end{figure}
         \normalfont
+        TensorFlow est une plate-forme d'apprentissage automatique open source de bout en bout. TensorFlow est un système complet de gestion de tous les aspects des systèmes d'apprentissage automatique. Cependant, ce cours se concentre sur le développement et la formation de modèles d'apprentissage automatique à l'aide d'API TensorFlow spécifiques. 
+        
+        L'API TensorFlow est organisée de manière hiérarchique, avec des API de  niveau supérieur construites au-dessus des API de niveau inférieur. Les chercheurs en apprentissage automatique utilisent des API de bas niveau pour créer et explorer de nouveaux algorithmes d'apprentissage automatique. En utilisant tf.keras on peut définir et former des modèles d'apprentissage automatique  pour effectuer des prédictions. tf.keras est la version TensorFlow de l'API Keras open source.
 
         \bfseries
         \item Keras
@@ -236,6 +264,9 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
             \caption{Logo de Keras}\label{fig:keras}
         \end{figure}
         \normalfont
+        Keras est une API d'apprentissage en profondeur de haut niveau développée par Google pour la mise en œuvre de réseaux de neurones. Il est écrit en Python et est utilisé pour faciliter la mise en œuvre de réseaux de neurones. Il prend également en charge plusieurs calculs de  réseaux neuronaux principaux. 
+        
+        Keras est relativement facile à apprendre et à utiliser car il fournit une interface Python avec un haut niveau d'abstraction tout en offrant de multiples possibilités de backend à des fins de calcul. Cela rend Keras plus lent que les autres frameworks d'apprentissage en profondeur, mais très convivial pour les débutants.
 
         \bfseries
         \item Matplotlib
@@ -245,6 +276,13 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
             \caption{Logo de Matplotlib}\label{fig:matplotlib}
         \end{figure}
         \normalfont
+        Matplotlib est également l'une des bibliothèques les plus réussies et les plus utilisées, fournissant divers outils de visualisation de données en Python. 
+        C'est l'une des bibliothèques de traçage les plus puissantes de Python. Il s'agit d'une bibliothèque multiplateforme qui fournit divers outils pour créer des tracés 2D à partir de données de liste ou de tableau en Python. 
+        
+        Matplotlib a été créé en 2003 dans le langage de programmation Python par Jean D. Hunter. Il utilise NumPy, une bibliothèque qui fournit des extensions mathématiques numériques pour Python. 
+        
+        Il expose également une API orientée objet qui vous permet d'étendre la possibilité de placer des graphiques statiques dans votre application à l'aide de divers kits d'outils d'interface graphique Python disponibles (Tkinter, PyQt, etc.). 
+        Vous pouvez utiliser différents types de graphiques pour visualiser vos données et faciliter leur compréhension. En écrivant quelques lignes de code en Python, vous pouvez utiliser ces différents types de graphiques (scatter plots, histograms, bar charts, error charts, box charts, etc.).
 
         \bfseries
     \end{enumerate}
@@ -257,6 +295,7 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
             \caption{Logo de Jupyter}\label{fig:jupyter}
         \end{figure}
         \normalfont
+        Jupyter est une application Web permettant de programmer dans plus de 40 langages de programmation, dont Python, Julia, Ruby, R ou  Scala. Il s'agit d'un projet communautaire visant à développer des logiciels libres, des formats ouverts et des services pour l'informatique interactive. Jupyter est une évolution du projet IPython. Jupyter vous permet de créer des blocs-notes, des programmes contenant à la fois du texte  et du code Markdown. Ces cahiers sont utilisés  pour explorer et analyser des données en science des données.
 
         \bfseries
         \item Google Colab pro+
@@ -266,7 +305,22 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
             \caption{Logo de Colab}\label{fig:colab}
         \end{figure}
         \normalfont
-
+        Le service Google Colaboratory, ou Google Colab en abrégé, vous permet d'exécuter du code Python dans un navigateur Web dans ce que l'on appelle des "notebooks". Il est utilisé pour l'apprentissage en profondeur, le partage et le travail sur des projets de science des données avec d'autres.
+        \begin{itemize}[label=$\bullet$]
+            \item Cartes graphiques plus rapides
+            
+            Avec le Colab Pro/Pr, vous pouvez accéder à plus de ressources et  choisir des GPU plus rapides tels que NVIDIA Tesla T
+            et NVIDIA Tesla P100 pour vos projets. En tant qu'utilisateur gratuit de Google Colab, je constate souvent que ma carte graphique ralentit et que ma RAM est faible. Lors de la création d'images ki (ki-générated images), le temps de traitement d'image des modèles Pro et Pro est environ 6 fois plus rapide que  le Colab gratuit. De quoi réserver au moins la version Colab Pro pour environ 10 euros par mois. 
+            \item Durée d'exécution plus longue 
+            
+            La version Pro de Google Colab a également une durée d'exécution plus longue, gardant votre ordinateur portable connecté jusqu'à 24 heures, tandis que la version gratuite se déconnecte après seulement 12 heures. 
+            L'avantage de la version Colab Pro ici est que l'instance continuera à s'exécuter  après la fermeture de la fenêtre du navigateur, mais dans les versions Free et Pro, la fermeture de la fenêtre mettra fin à l'instance. 
+            \item Plus de RAM
+            
+            Les utilisateurs du modèle payant bénéficient également de plus de RAM. Vous devriez être satisfait de 16 Go pour le Colab gratuit, mais les utilisateurs Pro ont 32 Go et les utilisateurs Pro ont  52 Go de RAM. Les comptes payants sont particulièrement adaptés au traitement de grandes quantités de données.
+        \end{itemize}
+        
+       
         \bfseries
     \end{enumerate}
     \subsubsection{HPC-MARWAN}
@@ -275,9 +329,76 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
         \includegraphics[width=0.6\textwidth]{marwan-hpc.png}
         \caption{Logo de HPC-MARWAN}\label{fig:marwan-hpc}
     \end{figure}
+    Le Centre National de la Recherche Scientifique et Technique met à la disposition de la communauté des chercheurs marocains une infrastructure de Calcul Haute Performance (HPC) accessible à distance.
+
+    L'infrastructure compte 38 nœuds avec la capacité suivante:
+    • 1672 cœurs de processeur (165 TFlops)
+    • 396 To de stockage
+    • 10,4 To de RAM
+    • 4 GPU
+
+    Les nœuds sont interconnectés via un réseau à faible latence à une bande passante de 100 Gbps, optimisant ainsi les performances de calcul parallèle. Un système de fichiers parallèle est implémenté pour faciliter un accès haute performance via des IOPS simultanées par plusieurs tâches d'une application parallèle.
+    L'infrastructure est connectée à MARWAN via une liaison 5Gbps pour assurer des vitesses de transfert de données élevées depuis les universités et institutions connectées à MARWAN.
+
+    \subsubsection*{SLURM Workload Manager}
+    SLURM: Simple Linux Utility for Resource Management
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{slurm.png}
+        \caption{Logo de SLURM}\label{fig:slurm}
+    \end{figure}
+
+    Slurm est un système de gestion de cluster et de planification des tâches open source, tolérant aux pannes et hautement évolutif pour les grands et petits clusters Linux. Slurm ne nécessite aucune modification du noyau pour son fonctionnement et est relativement autonome. En tant que gestionnaire de charge de travail de cluster, Slurm a trois fonctions clés. Premièrement, il alloue un accès exclusif et/ou non exclusif aux ressources (noeuds de calcul) aux utilisateurs pendant une certaine durée afin qu'ils puissent effectuer un travail. Deuxièmement, il fournit un cadre pour démarrer, exécuter et surveiller le travail (normalement un travail parallèle) sur l'ensemble des noeuds alloués. Enfin, il arbitre les conflits de ressources en gérant une file d'attente de travaux en attente. Des plug-ins facultatifs peuvent être utilisés pour la comptabilité, la réservation avancée, la planification des équipes (partage du temps pour les tâches parallèles), la planification des remplissages, la sélection des ressources optimisée pour la topologie, les limites de ressources par utilisateur ou compte bancaire et les algorithmes sophistiqués de hiérarchisation des tâches multifactorielles.
 
 \section{Bases de données}
+    Durant notre recherche pour une base de données convenable a notre projet on a trouver la liste des bases de données suivnates :
+    \begin{table}[H]
+        \centering
+        \scriptsize
+        \begin{tabularx}{\textwidth}{ |X|X|X|X|X|X|X|X| } 
+            \hline
+            \hfil Nom de base de données & \hfil Nombre des images & \hfil Pourcentage des images pédiatriques & \hfil Tranche d'âge & \hfil Étiquettes de recherche et de diagnostic & Étiquettes 
+            \hfil spatiales & \hfil Taille de l'image & \hfil Statut d'accès\\ [1ex]
+            \hline
+            \hfil ChestX-Ray14 & \hfil 112120 & \hfil - & \hfil - & \hfil 14 & \hfil 0 & \hfil redimensionné 1024 x 1024 & \hfil - \\ 
+            \hline
+            \hfil PLCO & \hfil 185421 & \hfil - & \hfil - & \hfil 12 & \hfil 9 & \hfil taille originale & \hfil - \\ 
+            \hline
+            \hfil CheXpert & \hfil 224316 & \hfil 0\% & \hfil 18+ & \hfil 14 & \hfil 0 & \hfil taille originale & \hfil public \\ 
+            \hline
+            \hfil MIMIC-CXR & \hfil 371920 & \hfil - & \hfil - & \hfil 14 & \hfil 0 & \hfil taille originale & \hfil - \\ 
+            \hline
+            \hfil PadChest & \hfil 160868 & \hfil 34\% & \hfil - & \hfil 193 & \hfil 104 & \hfil taille originale & \hfil public \\
+            \hline
+            \hfil Kermany & \hfil 5856 & \hfil 100\% & \hfil 1-5 & \hfil 3 & \hfil 0 & \hfil taille originale & \hfil - \\ 
+            \hline
+            \hfil PERCH & \hfil 3587 & \hfil - & \hfil - & \hfil 5 & \hfil - & \hfil - & \hfil - \\
+            \hline
+            \hfil NIH-14 & \hfil 112120 & \hfil 46\% & \hfil 1–17 & \hfil 14 & \hfil 8 & \hfil 1024 x 1024 & \hfil - \\
+            \hline
+            \hfil RSNA & \hfil 30227 & \hfil 65\% & \hfil 1–17 & \hfil 3 & \hfil - & \hfil 1024 x 1024 & \hfil - \\
+            \hline
+            \hfil SIIM – ACR & \hfil 12047 & \hfil 19,53\% & \hfil 1–17 & \hfil 2 & \hfil - & \hfil 1024 x 1024 & \hfil - \\
+            \hline
+            \hfil NIAID & \hfil 6251 & \hfil 11\% & \hfil 1–17 & \hfil - & \hfil - & \hfil - & \hfil - \\
+            \hline
+            \hfil Shenzhen & \hfil 662 & \hfil 4,6\% & \hfil 2 mois - 17 anns & \hfil - & \hfil - & \hfil taille originale & \hfil - \\
+            \hline
+            \hfil Montgomery County & \hfil 138 & \hfil 12,3\% &  \hfil 4–17 & \hfil - & \hfil - & \hfil taille originale & \hfil - \\
+            \hline
+        \end{tabularx}
+        \caption{Les bases données taitants le même phénomène}\label{table:all_dbs}
+    \end{table}
     \subsection{CheXpertDB}\label{chexpertDB}
+    Le choix de cette  jeu de données de CheXpert comme base du modèle de pré-entraînement est justifié devant :
+    \begin{itemize}[label=$\bullet$]
+        \item Sa grande taille  ( plus de 224,316  images recueillis rétrospectivement de l'hôpital de Stanford de 65,240 patients. ) 
+        \item Son accessibilité au public sans aucune formation préalablement requise
+        \item Le nombre important d’anomalies ciblées par l'étiquetage (14) avec une terminologie claire conforme au Glossaire des termes d'imagerie thoracique recommandé par ‘Fleischner Society’ de radiologie thoracique 
+        \item l’existence de plusieurs applications sur un sous-ensemble ou  la totalité de ses données via des compétitions avec de haute performances publiées sur son site officiel et des scores d'experts auxquels les chercheurs peuvent comparer leurs modèles.
+        
+
+    \end{itemize}
     \subsection{XpediaDB}
 
 \section*{Conclusion}
