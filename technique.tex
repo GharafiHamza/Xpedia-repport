@@ -102,6 +102,11 @@ Dans tout ce qui précède, nous pouvons remarquer une structure légèrement di
 \section{Choix techniques}
 Cette partie est consacrée à la présentation de l'environnement matériel et logiciel utilisé pour développer la solution proposée. Expliquer les décisions techniques concernant les langages de programmation et les outils à utiliser.
     \subsection{Architecture logicielle}
+    \subsection{API}
+    API signifie Application Programming Interface. En termes simples, une API est un ensemble de fonctions et de procédures qui vous permettent de créer une application. Accéder aux données et fonctionnalités d'autres applications, services ou systèmes d'exploitation. 
+    Vous êtes essentiellement un intermédiaire entre différentes plates-formes logicielles. Ils permettent à deux applications indépendantes de "parler" entre elles. 
+    Par exemple, supposons que vous êtes un agent de change fortement impliqué dans les marchés financiers et le trading. L'API peut lier un ensemble d'algorithmes de trading automatisés à la plateforme de courtage de trading préférée d'un trader. Il permet aux traders de visualiser les cotations et les données de prix en temps réel, ainsi que d'effectuer des transactions électroniques.
+
     \begin{figure}[H]
         \centering
         \includegraphics[width=1\textwidth]{log_arc.jpg}
@@ -109,32 +114,107 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
     \end{figure}
 
     \subsubsection{MERN stack}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth, trim={5cm, 3cm, 5cm, 5cm},clip]{MERN.png}
+        \caption{Le logo du MERN stack}\label{fig:mern}
+    \end{figure}
+    \paragraph{MERN Stack} est un ensemble de technologies puissantes et fiables utilisées pour développer des applications informatiques évolutives qui incluent des composants back-end, front-end et de base de données. JavaScript est utilisé pour développer des sites Web entiers plus rapidement et plus facilement.
+
+    C'est une technologie qui est un framework JavaScript complet et convivial pour la création d'applications et de sites Web dynamiques.
+
+    \paragraph{Pour quoi MERN?}MERN stack séparé en deux composants: le back-end et le front-end. De plus, l'ensemble du système de base de données est isolé du reste.
+
+    L'ensemble du système, y compris le front-end, le back-end et la base de données, utilise l'API REST, qui agit comme un "middleware" et est réutilisable pour toute autre application: logiciel mobile, etc., très facilement.
+
+    L'API REST vous permet de connecter des applications entre elles comme les pièces d'un puzzle. Les API REST sont basées sur HTTP et imitent les styles de communication Web, ce qui les rend très avantageuses à utiliser dans MERN.
     \begin{enumerate}\bfseries
         \item Atlas MongoDB
+        
         \item Express \& Node js
+        
         \item React
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\textwidth]{react.png}
+            \caption{Logo de ReactJS}\label{fig:react}
+        \end{figure}
     \end{enumerate}
     \subsubsection{Heroku}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{heroku.png}
+        \caption{Logo de Heroku}\label{fig:heroku}
+    \end{figure}
     \subsubsection{VScode}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{vscode.png}
+        \caption{Logo de Visual Studio Code}\label{fig:vscode}
+    \end{figure}
 
     \subsection{Architecture des réseaux de neurones}
     \subsubsection{Python}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{python.png}
+        \caption{Logo de Python}\label{fig:python}
+    \end{figure}
     \subsubsection{Librairies}
     \begin{enumerate}\bfseries
         \item Numpy
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\textwidth]{numpy.png}
+            \caption{Logo de Numpy}\label{fig:numpy}
+        \end{figure}
         \item Pandas
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\textwidth]{pandas.png}
+            \caption{Logo de Pandas}\label{fig:pandas}
+        \end{figure}
         \item OpenCV
-        \item OS
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\textwidth]{opencv.png}
+            \caption{Logo de Open Computer Vision}\label{fig:opencv}
+        \end{figure}
         \item Tensorflow
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\textwidth]{tensorflow.png}
+            \caption{Logo de Tensorflow}\label{fig:tensorflow}
+        \end{figure}
         \item Keras
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\textwidth]{keras.png}
+            \caption{Logo de Keras}\label{fig:keras}
+        \end{figure}
         \item Matplotlib
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\textwidth]{matplotlib.jpeg}
+            \caption{Logo de Matplotlib}\label{fig:matplotlib}
+        \end{figure}
     \end{enumerate}
     \subsubsection{IDEs}
     \begin{enumerate}\bfseries
         \item Jupyter
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\textwidth]{jupyter.jpeg}
+            \caption{Logo de Jupyter}\label{fig:jupyter}
+        \end{figure}
         \item Google Colab pro+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\textwidth]{colab.png}
+            \caption{Logo de Colab}\label{fig:colab}
+        \end{figure}
     \end{enumerate}
-    \subsubsection{MARWAN-HPC}
+    \subsubsection{HPC-MARWAN}
 
 
 \section{Bases de données}
