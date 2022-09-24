@@ -7,8 +7,10 @@ INPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.tex
 OUTPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
@@ -139,10 +141,19 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.toc
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -153,14 +164,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.toc
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.toc
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 OUTPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.toc
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.lof
@@ -175,8 +178,6 @@ OUTPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.equ
 OUTPUT /home/gharafi/Documents/My Repports/Xpedia Report/general_project_context.aux
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/general_project_context.tex
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/general_project_context.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/icon_chu.png
@@ -198,120 +199,3 @@ INPUT ./resources/thymus_enfant.png
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/tracheal.png
 INPUT ./resources/tracheal.png
 INPUT ./resources/tracheal.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/sol_prop.jpg
-INPUT ./resources/sol_prop.jpg
-INPUT ./resources/sol_prop.jpg
-OUTPUT /home/gharafi/Documents/My Repports/Xpedia Report/deeplearning.aux
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/deeplearning.tex
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/deeplearning.tex
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/perceptron.png
-INPUT ./resources/perceptron.png
-INPUT ./resources/perceptron.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/multi_layer_perce.png
-INPUT ./resources/multi_layer_perce.png
-INPUT ./resources/multi_layer_perce.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/conv_stand_arch.png
-INPUT ./resources/conv_stand_arch.png
-INPUT ./resources/conv_stand_arch.png
-OUTPUT /home/gharafi/Documents/My Repports/Xpedia Report/technique.aux
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/technique.tex
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/technique.tex
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/structure_gen.jpg
-INPUT ./resources/structure_gen.jpg
-INPUT ./resources/structure_gen.jpg
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_arc.png
-INPUT ./resources/xpedia_arc.png
-INPUT ./resources/xpedia_arc.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/class_dia.png
-INPUT ./resources/class_dia.png
-INPUT ./resources/class_dia.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/cas_auth.png
-INPUT ./resources/cas_auth.png
-INPUT ./resources/cas_auth.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/cas_add.png
-INPUT ./resources/cas_add.png
-INPUT ./resources/cas_add.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/adulte_model_train.png
-INPUT ./resources/adulte_model_train.png
-INPUT ./resources/adulte_model_train.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/pedia_model_train.png
-INPUT ./resources/pedia_model_train.png
-INPUT ./resources/pedia_model_train.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/log_arc.jpg
-INPUT ./resources/log_arc.jpg
-INPUT ./resources/log_arc.jpg
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/MERN.png
-INPUT ./resources/MERN.png
-INPUT ./resources/MERN.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/react.png
-INPUT ./resources/react.png
-INPUT ./resources/react.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/heroku.png
-INPUT ./resources/heroku.png
-INPUT ./resources/heroku.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/vscode.png
-INPUT ./resources/vscode.png
-INPUT ./resources/vscode.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/python.png
-INPUT ./resources/python.png
-INPUT ./resources/python.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/numpy.png
-INPUT ./resources/numpy.png
-INPUT ./resources/numpy.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/pandas.png
-INPUT ./resources/pandas.png
-INPUT ./resources/pandas.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/opencv.png
-INPUT ./resources/opencv.png
-INPUT ./resources/opencv.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/tensorflow.png
-INPUT ./resources/tensorflow.png
-INPUT ./resources/tensorflow.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/keras.png
-INPUT ./resources/keras.png
-INPUT ./resources/keras.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/matplotlib.jpeg
-INPUT ./resources/matplotlib.jpeg
-INPUT ./resources/matplotlib.jpeg
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/jupyter.jpeg
-INPUT ./resources/jupyter.jpeg
-INPUT ./resources/jupyter.jpeg
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/colab.png
-INPUT ./resources/colab.png
-INPUT ./resources/colab.png
-OUTPUT /home/gharafi/Documents/My Repports/Xpedia Report/realisation.aux
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/realisation.tex
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/realisation.tex
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.aux
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/general_project_context.aux
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/general_project_context.aux
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/deeplearning.aux
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/deeplearning.aux
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/technique.aux
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/technique.aux
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/realisation.aux
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/realisation.aux
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.out
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.out
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy5.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
