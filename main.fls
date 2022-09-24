@@ -246,6 +246,9 @@ INPUT ./resources/cas_auth.png
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/cas_add.png
 INPUT ./resources/cas_add.png
 INPUT ./resources/cas_add.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/data-preprocessing.jpg
+INPUT ./resources/data-preprocessing.jpg
+INPUT ./resources/data-preprocessing.jpg
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/adulte_model_train.png
 INPUT ./resources/adulte_model_train.png
 INPUT ./resources/adulte_model_train.png
@@ -313,6 +316,63 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 OUTPUT /home/gharafi/Documents/My Repports/Xpedia Report/realisation.aux
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/realisation.tex
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/realisation.tex
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_log.png
+INPUT ./resources/xpedia_log.png
+INPUT ./resources/xpedia_log.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_dashboard.png
+INPUT ./resources/xpedia_dashboard.png
+INPUT ./resources/xpedia_dashboard.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_menu.png
+INPUT ./resources/xpedia_menu.png
+INPUT ./resources/xpedia_menu.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_additem.png
+INPUT ./resources/xpedia_additem.png
+INPUT ./resources/xpedia_additem.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_add_image.png
+INPUT ./resources/xpedia_add_image.png
+INPUT ./resources/xpedia_add_image.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_fill_form.png
+INPUT ./resources/xpedia_fill_form.png
+INPUT ./resources/xpedia_fill_form.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_select_section.png
+INPUT ./resources/xpedia_select_section.png
+INPUT ./resources/xpedia_select_section.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_select_items.png
+INPUT ./resources/xpedia_select_items.png
+INPUT ./resources/xpedia_select_items.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_cr.png
+INPUT ./resources/xpedia_cr.png
+INPUT ./resources/xpedia_cr.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_normal_select.png
+INPUT ./resources/xpedia_normal_select.png
+INPUT ./resources/xpedia_normal_select.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_normal_cr.png
+INPUT ./resources/xpedia_normal_cr.png
+INPUT ./resources/xpedia_normal_cr.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_browse_item.png
+INPUT ./resources/xpedia_browse_item.png
+INPUT ./resources/xpedia_browse_item.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_filter_section.png
+INPUT ./resources/xpedia_filter_section.png
+INPUT ./resources/xpedia_filter_section.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_research.png
+INPUT ./resources/xpedia_research.png
+INPUT ./resources/xpedia_research.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_pagination.png
+INPUT ./resources/xpedia_pagination.png
+INPUT ./resources/xpedia_pagination.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_item_thumbnail.png
+INPUT ./resources/xpedia_item_thumbnail.png
+INPUT ./resources/xpedia_item_thumbnail.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_view_page.png
+INPUT ./resources/xpedia_view_page.png
+INPUT ./resources/xpedia_view_page.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_view_showitem.png
+INPUT ./resources/xpedia_view_showitem.png
+INPUT ./resources/xpedia_view_showitem.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_edit_page.png
+INPUT ./resources/xpedia_edit_page.png
+INPUT ./resources/xpedia_edit_page.png
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.aux
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/general_project_context.aux
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/general_project_context.aux

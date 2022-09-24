@@ -66,7 +66,11 @@ Dans tout ce qui précède, nous pouvons remarquer une structure légèrement di
     \paragraph*{Un pipeline de données est} une série d'étapes de traitement de données. Si les données ne sont pas actuellement chargées dans la plateforme de données, elles seront ingérées au début du pipeline. Ensuite, vous avez une séquence d'étapes où chaque étape fournit une sortie qui devient l'entrée de l'étape suivante. Cela continue jusqu'à ce que le pipeline soit terminé. Dans certains cas, des étapes indépendantes peuvent s'exécuter en parallèle.  
     
     Un pipeline de donnéesse compose de trois éléments principaux : une source, une ou plusieurs étapes de traitement et une destination. Dans certains pipelines de données, une destination peut être appelée un récepteur. Par exemple, un pipeline de données peut transmettre des données de votre application à un entrepôt de données, d'un lac de données à une base de données d'analyse ou à un système de traitement des paiements. Un pipeline de données peut également avoir la même source et le même récepteur, de sorte que le pipeline n'a besoin que de modifier l'ensemble de données. Chaque fois que des données sont traitées entre le point A et le point B (ou les points B, C, D), il existe un pipeline de données entre ces points.
-
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{data-preprocessing.jpg}
+        \caption{La structure d'un pipeline de données}\label{fig:data_preprocessing}
+    \end{figure}
         \subsubsection{Integration}
         L'intégration de données est le processus consistant à combiner des données provenant de différentes sources en une vue unique et unifiée. L'intégration commence par le processus d'ingestion et comprend des étapes telles que le nettoyage, le mappage ETL et la transformation. L'intégration des données permet finalement aux outils d'analyse de produire une intelligence économique efficace et exploitable.
 

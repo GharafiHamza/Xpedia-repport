@@ -37,28 +37,31 @@
 \contentsline {subsection}{\numberline {3.1.2}Application Web}{27}{subsection.3.1.2}%
 \contentsline {subsubsection}{\numberline {3.1.2.1}UML}{28}{subsubsection.3.1.2.1}%
 \contentsline {subsection}{\numberline {3.1.3}Pipeline de données}{31}{subsection.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.3.1}Integration}{31}{subsubsection.3.1.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}Integration}{32}{subsubsection.3.1.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.3.2}Transformation}{32}{subsubsection.3.1.3.2}%
-\contentsline {subsubsection}{\numberline {3.1.3.3}Réduction}{32}{subsubsection.3.1.3.3}%
-\contentsline {subsubsection}{\numberline {3.1.3.4}Nettoyage}{32}{subsubsection.3.1.3.4}%
-\contentsline {subsection}{\numberline {3.1.4}Modèles de deeplearning}{33}{subsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.3.3}Réduction}{33}{subsubsection.3.1.3.3}%
+\contentsline {subsubsection}{\numberline {3.1.3.4}Nettoyage}{33}{subsubsection.3.1.3.4}%
+\contentsline {subsection}{\numberline {3.1.4}Modèles de deeplearning}{34}{subsection.3.1.4}%
 \contentsline {section}{\numberline {3.2}Choix techniques}{34}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Architecture logicielle}{34}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}API}{34}{subsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.2.1}MERN stack}{35}{subsubsection.3.2.2.1}%
-\contentsline {paragraph}{MERN Stack}{35}{section*.14}%
-\contentsline {paragraph}{Pour quoi MERN?}{35}{section*.15}%
-\contentsline {subsubsection}{\numberline {3.2.2.2}Heroku}{38}{subsubsection.3.2.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.2.3}Visual Studio Code}{38}{subsubsection.3.2.2.3}%
-\contentsline {subsection}{\numberline {3.2.3}Outils d'apprentissage automatique et de préparation des données}{39}{subsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.3.1}Python}{39}{subsubsection.3.2.3.1}%
-\contentsline {subsubsection}{\numberline {3.2.3.2}Librairies}{39}{subsubsection.3.2.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.3.3}IDEs}{43}{subsubsection.3.2.3.3}%
-\contentsline {subsubsection}{\numberline {3.2.3.4}HPC-MARWAN}{45}{subsubsection.3.2.3.4}%
-\contentsline {section}{\numberline {3.3}Bases de données}{46}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}CheXpertDB}{46}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}XpediaDB}{47}{subsection.3.3.2}%
-\contentsline {chapter}{\numberline {4}Réalisation}{48}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Réalisation}{48}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Experiences}{48}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Résultats}{48}{section.4.3}%
+\contentsline {subsection}{\numberline {3.2.1}Architecture logicielle}{35}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}API}{35}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}MERN stack}{36}{subsubsection.3.2.2.1}%
+\contentsline {paragraph}{MERN Stack}{36}{section*.14}%
+\contentsline {paragraph}{Pour quoi MERN?}{36}{section*.15}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}Heroku}{39}{subsubsection.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.3}Visual Studio Code}{39}{subsubsection.3.2.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}Outils d'apprentissage automatique et de préparation des données}{40}{subsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.3.1}Python}{40}{subsubsection.3.2.3.1}%
+\contentsline {subsubsection}{\numberline {3.2.3.2}Librairies}{40}{subsubsection.3.2.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.3.3}IDEs}{44}{subsubsection.3.2.3.3}%
+\contentsline {subsubsection}{\numberline {3.2.3.4}HPC-MARWAN}{46}{subsubsection.3.2.3.4}%
+\contentsline {section}{\numberline {3.3}Bases de données}{47}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}CheXpertDB}{47}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}XpediaDB}{48}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}Réalisation}{49}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Réalisation}{49}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Applcation web}{49}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Preparation des données}{58}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Madèles d'apprentissage en profondeur}{58}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Experiences}{58}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Résultats}{58}{section.4.3}%
