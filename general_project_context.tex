@@ -154,9 +154,9 @@
             \end{enumerate}
 
             \subsubsection{La partie informatique de la problématique}\label{partie_info}
-                Dans notre projet on veut crée un produit qui pourrait atténuer le flot des clichés thoraco pulmonaire qui doivent être traités individuellement par les radiologues, et en particuliérement les radiographies pédiatriques qui n'ont pas assés d'attention que les radiographies adulte, mais suivant une liste des anomalies predéfinie ou plutôt imposé par les base données publique à l'utilisation des étudiants, la liste des anomalies et la suivante:
-
-                Dans notre projet, nous voulons créer un produit capable de réduire le flux de radiographies thoraco-pulmonaires, que les radiologues doivent traiter séparément. Anomalies, listes d'anomalies mandatées ou imposées par les bases de données publiques à l'usage des étudiants,  et ce qui suit:
+            Dans notre projet on veut créer un produit qui pourrait atténuer le flot des clichés thoraco-pulmonaire qui doit être traitée individuellement par les radiologues, et en particulièrement les radiographies pédiatriques qui n’ont pas assez d’attention que les radiographies adulte, mais suivant une liste des anomalies prédéfinie ou plutôt imposée par les bases données publiques à l’utilisation des étudiants, la liste des anomalies et la suivante:
+            
+            étudiants, et ce qui suit :
                 \begin{multicols}{2}\label{list_dia}
                     \begin{enumerate}
                         \item Aucun résultat
@@ -203,13 +203,13 @@
                 Padash et al.ont identifié 55 articles mettant en œuvre un modèle d'IA pour l'interprétation des radiographies thoraciques pédiatriques ou des radiographies thoraciques pédiatriques et adultes. La classification des radiographies pulmonaires comme pneumonie était l'application la plus courante de l'IA, évaluée dans 65 \% des études. Bien que de nombreuses études rapportent une précision diagnostique élevée, la plupart des algorithmes n'ont pas été validés sur des ensembles de données externes.
 
         \subsection{Solution Proposée}\label{Solution_prop}
-            Les  données de la population pédiatrique sont beaucoup moins documentées que celles de la population adulte, et notamment pour les radiographies thoraciques, ce qui nous inspirer pour créer ou collecter notre propre base de données, toujours en respectant la liste des anomalies déjà citées dans la sous-section \ref{list_dia}.
-            La solution proposée se compose essentiellement de trois unités principales qui sont bien connectées les unes aux autres pour former un flux de travail fluide et solide.
-            \begin{figure}[H]
-                \centering
-                \includegraphics[width=1\textwidth]{sol_prop.jpg}
-                \caption{Architecture générale du solution proposé}\label{fig:sol_prop}
-            \end{figure}
+        Les données de la population pédiatrique sont beaucoup moins documentées que celles de la population adulte, et notamment pour les radiographies thoraciques, ce qui nous inspirait pour créer ou collecter notre propre base de données, toujours en respectant la liste des anomalies déjà citées dans la sous-section  \ref{list_dia}.
+        À cette phase du projet, il est évident que nous ne serons pas en mesure de collecter un grand ensemble de données qui serait suffisant pour construire un modèle d'apprentissage en profondeur précis pour la population pédiatrique, nous nous appuierons donc sur un ensemble de données adulte existant pour commencer reproduire un modèle d'apprentissage en profondeur capable de traiter les rayons X adultes, et alors seulement, nous utiliserons l'apprentissage par transfert pour étendre le modèle adulte, en l'alimentant par les données pédiatriques collectées, pour obtenir un modèle capable de traiter les rayons X pédiatriques.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.7\textwidth]{structure_gen.jpg}
+            \caption{structure génerale de la solution proposée}\label{fig:sol_prop}
+        \end{figure}
             \subsubsection*{Application Web}
                 Premiére phase:
                 Une application web qui peut collecter des données. La collecte est effectuée par les collaborateurs voir sous-section \ref{Collaborateurs}. L'application doit être simple, légère, rapide et claire avec une interface concise direct afin de ne pas prendre beaucoup de temps au médecin.

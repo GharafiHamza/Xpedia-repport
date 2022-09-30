@@ -26,7 +26,7 @@
 \\ {\Large Ecole National des Sciences Appliquées}}
 
 \author{GHARAFI Hamza}
-\date{2022}
+\date{2021/2022}
 \graphicspath{ {./resources/} }
 
 \begin{document}
@@ -39,12 +39,52 @@
 
     \maketitle
 
+    \chapter*{Résumé}
+    La pratique de la médecine évolue avec le développement de nouvelles méthodes d'intelligence artificielle (IA) d'apprentissage automatique. 
+    
+    Associés à des améliorations rapides du traitement informatique, ces systèmes basés sur l'IA améliorent déjà la précision et l'efficacité du diagnostic et du traitement dans diverses spécialisations. 
+    
+    L'attention croissante portée à l'IA en radiologie a conduit certains experts à suggérer qu'un jour l'IA pourrait même remplacer les radiologues. 
+    
+    Ces suggestions soulèvent la question de savoir si les systèmes basés sur l'IA remplaceront éventuellement les médecins dans certaines spécialisations ou augmenteront le rôle des médecins sans les remplacer réellement. Pour évaluer l'impact sur les médecins, cette recherche vise à mieux comprendre cette technologie et comment elle transforme la médecine. 
+    
+    À cette fin, ce rapport étudie la possibilité de construire une IA ou plus particulièrement un modèle d'apprentissage en profondeur (DL) capable de traiter les radiographies pulmonaires pédiatriques et, en retour, de donner un diagnostic approprié à cette radiographie exacte.
 
-    \abstract{}
-    mon resumé\dots
+    ce problème a été soulevé par le service de radiologie du centre hospitalier universitaire mohamed six, en plus de 8 résidents bénévoles toutes les connaissances, expertises et équipements médicaux ont été fournis par cet hôpital.
+
+    Tous les efforts ont été donnés pour répondre si:
+
+    \begin{enumerate}
+        \item Le modèle d'apprentissage en profondeur est capable de traiter les radiographies pulmonaires pédiatriques.
+        \item Les systèmes basés sur l'IA finiront par remplacer les médecins.
+    \end{enumerate}
+
+    \vspace*{2cm}
+    \textbf{Mots clés:} Intelligence artificielle, Apprentissage automatique, Apprentissage profond, Radiographies thoraciques, Impact, Médecine, Médecin, Apprentissage profond, Radiologie, Pathologie.
 
     \chapter*{Abstract}
-    My abstract goes here.
+    The practice of medicine is changing with the development of new Artificial Intelligence (AI) methods of machine learning. 
+    
+    Coupled with rapid improvements in computer processing, these AI-based systems are already improving the accuracy and efficiency of diagnosis and treatment across various specializations. 
+    
+    The increasing focus of AI in radiology has led to some experts suggesting that someday AI may even replace radiologists. 
+    
+    These suggestions raise the question of whether AI-based systems will eventually replace physicians in some specializations or will augment the role of physicians without actually replacing them. To assess the impact on physicians this research seeks to better understand this technology and how it is transforming medicine. 
+    
+    To that end this report researches the possibility of building an AI or more particularly a deep learning (DL) model capable of processing pediatric chest x rays and in return giving a proper diagnostic to this exact x ray.
+
+    this problem was raised by the radiology department of the Mohamed six university hospital center,in addition to 8 volunteer residents all medical knowledge, expertise and equipment was provided by this hospital.
+
+    All efforts were giving in order to answer wether:
+
+    \begin{enumerate}
+        \item Deep learning model is capable of processing pediatric chest x rays.
+        \item AI-based systems will eventually replace physicians.
+    \end{enumerate}
+
+
+    \vspace*{2cm}
+    \textbf{Keywords:} Artificial intelligence, Machine learning, Deep learning, Chest x rays, Impact, Medicine, Physician, Deep learning, Radiology, Pathology.
 
     \chapter*{Remerciment}
     Je remercie\dots
@@ -59,12 +99,91 @@
    \listofmyequations
 
 
-    \include{general_project_context}
+   \chapter*{Introduction générale}
+   Aujourd'hui dans la plupart des services de radiologie la demande croissante de divers types d'examens radiologiques par différents spécialistes a rendu le nombre d'images destinées à l'interprétation si énorme qu'il dépasse largement les capacités des radiologues malgré les efforts fournis quotidiennement   même avec l'augmentation du nombre de radiologues employés; Chose qui a fait l’objet d’une recherche de solutions facilitant ou proposant des interprétations complètes ou partielles des images radiologiques afin de lutter contre la surcharge de travail chez les radiologues.
+ 
+    L'émergence de l’intelligence artificielle et l’évolution rapide des technologies informatiques traitant les mégadonnées ou les données massives (Big Data) ont ouvert la voie au développement de systèmes informatiques simulant une ou des parties d’interprétation de diverses données médicales et notamment des images radiologiques.
+    
+    Cela dit, même si l'adoption du terme intelligence artificielle est relativement récente, l'utilisation de cette technologie ne l'est pas ; notamment en radiologie médicale et plus particulièrement son utilisation pour la détection automatique de certaines anomalies sur les images tomodensitométriques : la détection des micronodules sur les TDM thoraciques par exemple.
+
+    Les algorithmes d’apprentissage adoptées par l’IA actuellement sont devenues miraculeux avec des records de performances parfois très puissants qu’ils dépassent même ceux des radiologues, notamment dans le cas des images radiologiques peu contrastées et dans la détection de très petites anomalies; 
+
+    Cette remarquable révolution d’IA pose la question de la possibilité de sa participation totale ou en partie au flux de travail des services de radiologie en particulier dans la tâche d'interprétation ou bien de lecture des images radiologiques qui était jusqu'à présent considérée comme une tâche exclusive des radiologues. , cette question à son tour relève une problématique aussi complexe et aussi ancienne que la première interaction homme-machine et qui questionne simplement la possibilité du remplacement de l’homme par la machine , la réponse par oui  est tout à fait valide , possible et légitime dans plusieurs domaines sauf que dans ce cas-là vu la complexité ,la sensibilité et la vitalité du domaine de son application la réponse à notre problématique prend plusieurs dimensions qu’on va traiter ultérieurement dans le chapitre \ref{general_project_context}.
+
+    Jusqu'à Aujourd'hui de nombreuses institutions de santé exploitent des technologies de l’IA qui ont réussi à prouver leur efficacité et à posséder des licences de la part des autorités de santé pour leur utilisation dans l'amélioration de la qualité des images radiologiques et leur manipulation mais la chose la plus intéressante c'est leur obtention récente d’une licence pour le triage des images de radiographie thoracique normales; Cette dernière est considérée comme un grand pas donnant plus de fiabilité et de confiance à l’IA  vu son implication directe dans la prise de décision diagnostic même avec la nécessité d’une supervision humaine des résultats.
+
+    Cette confiance accordée actuellement à l’Ia ne traduit pas une tendance vers le remplacement du rôle des médecins radiologues mais plutôt une assistance et un coup de main offert en sort d’outils façonnent et soutiennent le rôle du  radiologue par aide à : la génération automatique des rapports , la réduction de temps des interprétations , la formation et l’assistance des juniors radiologues et des médecins moins expérimentés , et à assister à la détection des lésions ou autres anomalies radiologiques sur des images moins contrastées qu’un radiologue humain pourrait ne pas déceler. 
+
+
+    \include{general_project_context}\label{general_project_context}
     \include{deeplearning}
     \include{technique}
     \include{realisation}
 
     \chapter*{Conclusion}
+    \clearpage
+
+    \chapter*{Annexe}
+    \section{Réalisation}
+    \subsection{Application web}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{xpedia_log.png}
+        \caption{La login de Xpedia}\label{fig:xpedia_log}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{xpedia_dashboard.png}
+        \caption{Le dashboard}\label{fig:xpedia_dashboard}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\textwidth]{xpedia_menu.png}
+        \caption{La menu}\label{fig:xpedia_menu}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.4\textwidth]{xpedia_select_section.png}
+        \caption{La section de selection des diagnostiques}\label{fig:xpedia_select_section}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.4\textwidth]{xpedia_select_items.png}
+        \caption{Exemple de selection des diagnostiques}\label{fig:xpedia_select_items}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{xpedia_cr.png}
+        \caption{La section du remplissage du compte rendue}\label{fig:xpedia_cr}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{xpedia_browse_item.png}
+        \caption{La page 'browse items'}\label{fig:xpedia_menu}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.4\textwidth]{xpedia_filter_section.png}
+        \caption{La section du filtre des éléments}\label{fig:xpedia_filter_section}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{xpedia_pagination.png}
+        \caption{La menu}\label{fig:xpedia_menu}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\textwidth]{xpedia_view_page.png}
+        \caption{Les détailles de l'élément}\label{fig:xpedia_view_page}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{xpedia_edit_page.png}
+        \caption{La page d'edition de l'élément}\label{fig:xpedia_item_thumbnail}
+    \end{figure}
+
 
 
 \end{document}

@@ -93,11 +93,19 @@ Dans tout ce qui précède, nous pouvons remarquer une structure légèrement di
    
     \subsection{Modèles de deeplearning}
 
+    \paragraph*{Modèles de la population adulte} En ce qui concerne les modèles d'apprentissage en profondeur, nous avons décidé de procéder en suivant la structure \ref{fig:adulte_model_schema}, nous avons 2 chemins principaux, l'un commençant par un modèle pré-formé et le second est notre propre modèle construit à partir de zéro, les deux chemins ont la même structure, la seule différence est le point de départ comme nous venons de l'expliquer.
+    La partie commune des deux modèles est:
+    Tout d'abord un modèle binaire pré-classifie les rayons X en normaux ou anormaux
+    Ensuite, un modèle multi-étiqueté suit pour affiner davantage la classification de l'anomalie.
+
     \begin{figure}[H]
         \centering
         \includegraphics[width=1\textwidth]{adulte_model_train.png}
         \caption{La schéma de créeation du modèle des radiographies adultes}\label{fig:adulte_model_schema}
     \end{figure}
+    \paragraph*{Modèles de la population pédiatrique} Le but de modèle de la population adulte est d'agir comme un modèle initial à former sur les données pédiatriques.
+    Ce qui met en évidence l'utilisation de modèles adultes comme modèles initiaux dans le processus d'apprentissage par transfert, pour la création des modèle pédiatriques suivant la structure de la figure \ref{fig:pedia_model_schema}.
+
     \begin{figure}[H]
         \centering
         \includegraphics[width=1\textwidth]{pedia_model_train.png}
@@ -181,6 +189,13 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
     Heroku est une plate-forme de services cloud qui a gagné en popularité  ces dernières années. Heroku est si facile à utiliser qu'il est devenu le choix incontournable pour de nombreux projets de développement. 
     L'accent mis sur la prise en charge des applications centrées sur le client facilite le développement et le déploiement  des applications. Les entreprises utilisant Heroku peuvent se concentrer sur le perfectionnement de leurs applications, tandis que la plateforme Heroku gère le matériel et les serveurs. Ce n'est pas l'infrastructure qui les soutient.
 
+    \subsubsection{GitHub}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{github.png}
+        \caption{Logo de GitHub}\label{fig:github}
+    \end{figure}
+    GitHub est une ressource de programmation de plus en plus populaire utilisée pour le partage de code. Il s'agit d'un site de réseautage social pour les programmeurs que de nombreuses entreprises et organisations utilisent pour faciliter la gestion de projet et la collaboration. Selon les statistiques recueillies en octobre 2020, il s'agit de l'hébergeur de code source le plus important, avec plus de 60 millions de nouveaux référentiels créés en 2020 et comptant plus de 56 millions de développeurs au total.
     \subsubsection{Visual Studio Code}
     \begin{figure}[H]
         \centering
