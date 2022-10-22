@@ -1,0 +1,80 @@
+\babel@toc {french}{}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Icone du CHU}}{14}{figure.1.1}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Thorax osseux. a. Arc postérieur de la côte; b. arc moyen de la côte ; c. arc antérieur de la côte ; d. extrémité antérieure de la côte; e. clavicule vue en enfilade avec nouure centrale (bras relevés); f. omoplate; g. épine de l'omoplate; h. métaphyse humérale ; i. cartilage de conjugaison; j. épiphyse humérale ; k. cavité glénoïde; l. corps vertébral; m. pédicules; n. disque intervertébral. }}{17}{figure.1.2}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Diagramme des structures médiastinales à analyser sur une Radiographie thoracique PA}}{17}{figure.1.3}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Les différences radio-anatomiques entre l’adult et l’enfant}}{18}{figure.1.4}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Les variations de l’image du thymus chez l’enfant}}{18}{figure.1.5}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces La deviation trachéale}}{19}{figure.1.6}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces La structure génerale de la solution proposée}}{21}{figure.1.7}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Chronologie du développement et de l'utilisation de l'intelligence artificielle en médecine. À L'intelligence artificielle; ID, apprentissage profond; FDA, Agence fédérale américaine des produits alimentaires et médicamenteux: CAO, diagnostic assisté par ordinateur. }}{24}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Perceptron}}{25}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Multi couche perceptron}}{26}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Architecture standard d'un Réseau de neurones convolutionnel}}{27}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Apprentissage par transfert}}{30}{figure.2.5}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces La structure génerale du projet}}{32}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces La structure génerale de l'application web Xpedia}}{33}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Le diagramme de classe de l'application web Xpedia}}{34}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Le diagramme de séquence: cas d'authentification}}{34}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Le diagramme de séquence: cas d'ajouter un cliché}}{35}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces La structure d'un pipeline de données}}{36}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Le schéma de création du modèle des radiographies adultes}}{38}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Le schéma de création du modèle des radiographies pédiatriques}}{39}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Le schéma de logicielle de l'application web Xpedia}}{40}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Le logo du MERN stack}}{41}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Le logo de Atlas MongoDB}}{41}{figure.3.11}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Le logo de Express Node JS}}{42}{figure.3.12}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Le logo de ReactJS}}{43}{figure.3.13}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Le logo de Heroku}}{43}{figure.3.14}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Le logo de GitHub}}{44}{figure.3.15}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Le logo de Visual Studio Code}}{44}{figure.3.16}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Le logo de Python}}{45}{figure.3.17}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Le logo de Numpy}}{46}{figure.3.18}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Le logo de Pandas}}{46}{figure.3.19}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Le logo de Open Computer Vision}}{47}{figure.3.20}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Le logo de Tensorflow}}{48}{figure.3.21}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Le logo de Keras}}{48}{figure.3.22}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Le logo de Matplotlib}}{49}{figure.3.23}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Le logo de Jupyter}}{49}{figure.3.24}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Le logo de Colab}}{50}{figure.3.25}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Le logo de HPC-MARWAN}}{51}{figure.3.26}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Le logo de SLURM}}{51}{figure.3.27}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Le diagramme de Gantt}}{55}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces La page ajoutée élément}}{56}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces La section réservée à l’ajout d’une image}}{56}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Le formulaire a rempli}}{56}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Choix de ’No Finding’ diagnostique}}{57}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Remplissage automatique du compte rendu}}{57}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Bar de recherche }}{57}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Vignette de l'élément}}{57}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Clichés en dimension réelle}}{58}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Les données brutes de la base de données CheXpert}}{58}{figure.4.10}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Les données après préparation}}{58}{figure.4.11}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces La préparation de la colonne ’Age’}}{59}{figure.4.12}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Préparer les images et meta données pour la phase d’entrainement}}{59}{figure.4.13}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces L’architecture d'un model a entrée mixtes}}{60}{figure.4.14}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces L’architecture des RNC}}{61}{figure.4.15}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces L’historique des expériences des modèles de classification binaire}}{62}{figure.4.16}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces L’historique des expériences des modèles de classification multi-etiquettes 01}}{63}{figure.4.17}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces L’historique des expériences des modèles de classification multi-etiquettes 02}}{63}{figure.4.18}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces La précision du modèle de classification binaire}}{64}{figure.4.19}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces La perte du modèle de classification binaire}}{65}{figure.4.20}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Comparaison entre les clichés normaux et anormaux}}{65}{figure.4.21}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Les résultats de la phase de test}}{66}{figure.4.22}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Exemple d’application du modèle de classification binaire}}{66}{figure.4.23}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces La précision du modèle de classification multi étiquettes}}{67}{figure.4.24}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces La perte du modèle de classification multi étiquettes}}{67}{figure.4.25}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces La page login de Xpedia}}{73}{figure.4.26}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Le Dashboard}}{74}{figure.4.27}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Le menu}}{74}{figure.4.28}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces La section de sélection des diagnostics}}{75}{figure.4.29}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Exemple de sélection des diagnostics}}{75}{figure.4.30}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces La section du remplissage du compte rendu}}{76}{figure.4.31}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces La page ’browse items’}}{76}{figure.4.32}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces La section du filtre des éléments}}{77}{figure.4.33}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces La section pagination}}{77}{figure.4.34}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Les détaille de l’élément}}{78}{figure.4.35}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces La page d’édition de l’élément}}{78}{figure.4.36}%

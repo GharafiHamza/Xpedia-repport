@@ -1,0 +1,74 @@
+\babel@toc {french}{}
+\contentsline {chapter}{\numberline {1}Contexte générale du projet}{14}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Organisme d'acceuil}{14}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}CHU Mohammed VI de Marrakech}{14}{subsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1.1}Chiffres clés de production e CHU}{15}{subsubsection.1.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1.2}Service de radiologie mère-enfant}{15}{subsubsection.1.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.2}Collaborateurs}{15}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Contexte générale du projet}{16}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Problématique}{16}{subsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.1.1}Procédure de détection des anomalies par les radiologues sur les radiographies thoraciques}{16}{subsubsection.1.2.1.1}%
+\contentsline {subsubsection}{\numberline {1.2.1.2}Les differences radio anatomiques entre les clichés pédiatriques et adultes}{18}{subsubsection.1.2.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1.3}La partie informatique de la problématique}{19}{subsubsection.1.2.1.3}%
+\contentsline {subsection}{\numberline {1.2.2}Etat d'art}{20}{subsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2.1}Modèles de détection automatiques de pathologies thoraciques précise chez l‘adulte}{20}{subsubsection.1.2.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2.2}Modèles de détection de Pathologies précises ou d‘anomalies à la rx thoracique chez la Population Pédiatrique}{20}{subsubsection.1.2.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Solution Proposée}{20}{subsection.1.2.3}%
+\contentsline {chapter}{\numberline {2}Apprentissage profond}{23}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Géneralité}{23}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Definition}{23}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Historique}{23}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Réseau des neurones}{23}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Perceptron}{25}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Réseau de neurones convolutionnel (RNC)}{26}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Architecture RNC standard}{27}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}Couche convolutive}{27}{subsubsection.2.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.3}Couche max pooling}{28}{subsubsection.2.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.2.4}Hyperparamètres}{28}{subsubsection.2.2.2.4}%
+\contentsline {paragraph}{Choix des hyperparamètres}{28}{section*.19}%
+\contentsline {section}{\numberline {2.3}Classification des images}{28}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Classification binaire}{29}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Classification Multi-Classes}{29}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Classification Multi-Etiquettes}{29}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Apprentissage par transfert}{29}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Etude technique}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Conception et modelisation}{31}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Structure générale du projet}{31}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Application Web}{31}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}UML}{32}{subsubsection.3.1.2.1}%
+\contentsline {subsection}{\numberline {3.1.3}Pipeline de données}{35}{subsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}Integration}{36}{subsubsection.3.1.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.3.2}Transformation}{36}{subsubsection.3.1.3.2}%
+\contentsline {subsubsection}{\numberline {3.1.3.3}Réduction}{37}{subsubsection.3.1.3.3}%
+\contentsline {subsubsection}{\numberline {3.1.3.4}Nettoyage}{37}{subsubsection.3.1.3.4}%
+\contentsline {subsection}{\numberline {3.1.4}Modèles de deeplearning}{37}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Choix techniques}{40}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Architecture logicielle}{40}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}API}{40}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}MERN stack}{41}{subsubsection.3.2.2.1}%
+\contentsline {paragraph}{MERN Stack}{41}{section*.25}%
+\contentsline {paragraph}{Pour quoi MERN?}{41}{section*.26}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}Heroku}{43}{subsubsection.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.3}GitHub}{44}{subsubsection.3.2.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.2.4}Visual Studio Code}{44}{subsubsection.3.2.2.4}%
+\contentsline {subsection}{\numberline {3.2.3}Outils d'apprentissage automatique et de préparation des données}{45}{subsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.3.1}Python}{45}{subsubsection.3.2.3.1}%
+\contentsline {subsubsection}{\numberline {3.2.3.2}Librairies}{45}{subsubsection.3.2.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.3.3}IDEs}{49}{subsubsection.3.2.3.3}%
+\contentsline {subsubsection}{\numberline {3.2.3.4}HPC-MARWAN}{51}{subsubsection.3.2.3.4}%
+\contentsline {section}{\numberline {3.3}Bases de données}{52}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}CheXpertDB}{52}{subsection.3.3.1}%
+\contentsline {chapter}{\numberline {4}Réalisation}{54}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Flux de travail}{54}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Réalisation}{54}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Application web}{54}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Preparation des données}{54}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Madèles d'apprentissage en profondeur}{60}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Experiences}{62}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Résultats}{64}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Modèle de classification binaire}{64}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Modèle de classififcation multi étiquettes}{66}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Keras:}{72}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Autres: }{72}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Réalisation}{73}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Application web}{73}{subsection.4.5.1}%

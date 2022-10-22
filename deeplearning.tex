@@ -7,18 +7,20 @@
             
         Selon Wikipedia L'apprentissage profond ou apprentissage en profondeur est un ensemble de méthodes d'apprentissage automatique tentant de modéliser avec un haut niveau d’abstraction des données grâce à des architectures articulées de différentes transformations non linéaires. Ces techniques ont permis des progrès importants et rapides dans les domaines de l'analyse du signal sonore ou visuel et notamment de la reconnaissance faciale, de la reconnaissance vocale, de la vision par ordinateur, du traitement automatisé du langage. Dans les années 2000, ces progrès ont suscité des investissements privés, universitaires et publics importants, notamment de la part des GAFAM (Google, Apple, Facebook, Amazon, Microsoft).
     \subsection{Historique}
+    La figure \ref{fig:history-of-ai} montre les points forts de  l'utilisation de l'intelligence artificielle en matière de la médecin.
+\section{Réseau des neurones}
+    un réseau de neurones est une structure qui aide l'ordinateur à imiter le processus d'apprentissage du cerveau humain, en collectant un certain nombre de nœuds liés par des poids,la manifestation la plus élémentaire d'un réseau de neurones est ce qu'on appelle le perceptron, il s'agit d'un réseau de neurones à une seule couche composé de deux entrées et d'une sortie comme suit:
 
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth]{history-of-ai.jpg}
         \caption{Chronologie du développement et de l'utilisation de l'intelligence artificielle en médecine. 
-        À L' intelligence artificielle ; ID, apprentissage profond ; FDA, Agence fédérale américaine des produits alimentaires et médicamenteux  : CAO, diagnostic assisté par ordinateur.
+        À L'intelligence artificielle; ID, apprentissage profond; FDA, Agence fédérale américaine des produits alimentaires et médicamenteux: CAO, diagnostic assisté par ordinateur.
         }
         \label{fig:history-of-ai}
     \end{figure}
 
-\section{Réseau des neurones}
-        un réseau de neurones est une structure qui aide l'ordinateur à imiter le processus d'apprentissage du cerveau humain, en collectant un certain nombre de nœuds liés par des poids,la manifestation la plus élémentaire d'un réseau de neurones est ce qu'on appelle le perceptron, il s'agit d'un réseau de neurones à une seule couche composé de deux entrées et d'une sortie comme suit:
+
 
         \subsection{Perceptron}
             Comme mentionné ci-dessus, le perceptron est  un lien neuronal à une seule couche avec quatre paramètres principaux. Le modèle perceptron multiplie d'abord toutes les valeurs d'entrée et leurs poids, puis ajoute ces valeurs pour créer une somme pondérée. En outre, cette somme pondérée est appliquée à la fonction d'activation "f" pour obtenir la sortie souhaitée. Cette fonction d'activation est également appelée fonction échelon et est désignée par la lettre "f".
@@ -70,7 +72,7 @@
         \begin{figure}[H] 
             \centering
             \includegraphics[width=0.8\textwidth]{multi_layer_perce.png}
-            \caption{multi couche perceptron}
+            \caption{Multi couche perceptron}
             \label{fig:m_l_p}
         \end{figure}
 
@@ -139,7 +141,12 @@
 
 \section{Apprentissage par transfert}
     L'apprentissage par transfert est la réutilisation de modèles pré-entraînés pour de nouveaux problèmes. Il est actuellement très populaire  en apprentissage profond car il permet d'entraîner des réseaux de neurones profonds avec relativement peu de données. Ceci est très utile dans le domaine de la science des données. En effet, la plupart des problèmes du monde réel n'ont généralement pas des millions de points de données étiquetés pour entraîner un modèle aussi complexe.
-
+    \begin{figure}[H] 
+        \centering
+        \includegraphics[width=0.8\textwidth]{transfered.png}
+        \caption{Apprentissage par transfert}
+        \label{fig:transfer_learning}
+    \end{figure}
 
 \section*{Conclusion}
         Ce qu'on peut en deduire de ce chapitre c'est que pour la réussite de notre projet on doit se baser sur 3 concept principales:

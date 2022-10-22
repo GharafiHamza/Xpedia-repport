@@ -47,4 +47,24 @@
 \BOOKMARK [3][-]{subsubsection.3.2.2.2}{Heroku}{subsection.3.2.2}% 47
 \BOOKMARK [3][-]{subsubsection.3.2.2.3}{GitHub}{subsection.3.2.2}% 48
 \BOOKMARK [3][-]{subsubsection.3.2.2.4}{Visual Studio Code}{subsection.3.2.2}% 49
-\BOOKMARK [2][-]{subsection.3.2.3}{Outils d'apprentissage automatiq
+\BOOKMARK [2][-]{subsection.3.2.3}{Outils d'apprentissage automatique et de pr\351paration des donn\351es}{section.3.2}% 50
+\BOOKMARK [3][-]{subsubsection.3.2.3.1}{Python}{subsection.3.2.3}% 51
+\BOOKMARK [3][-]{subsubsection.3.2.3.2}{Librairies}{subsection.3.2.3}% 52
+\BOOKMARK [3][-]{subsubsection.3.2.3.3}{IDEs}{subsection.3.2.3}% 53
+\BOOKMARK [3][-]{subsubsection.3.2.3.4}{HPC-MARWAN}{subsection.3.2.3}% 54
+\BOOKMARK [1][-]{section.3.3}{Bases de donn\351es}{chapter.3}% 55
+\BOOKMARK [2][-]{subsection.3.3.1}{CheXpertDB}{section.3.3}% 56
+\BOOKMARK [0][-]{chapter.4}{R\351alisation}{}% 57
+\BOOKMARK [1][-]{section.4.1}{Flux de travail}{chapter.4}% 58
+\BOOKMARK [1][-]{section.4.2}{R\351alisation}{chapter.4}% 59
+\BOOKMARK [2][-]{subsection.4.2.1}{Application web}{section.4.2}% 60
+\BOOKMARK [2][-]{subsection.4.2.2}{Preparation des donn\351es}{section.4.2}% 61
+\BOOKMARK [2][-]{subsection.4.2.3}{Mad\350les d'apprentissage en profondeur}{section.4.2}% 62
+\BOOKMARK [1][-]{section.4.3}{Experiences}{chapter.4}% 63
+\BOOKMARK [1][-]{section.4.4}{R\351sultats}{chapter.4}% 64
+\BOOKMARK [2][-]{subsection.4.4.1}{Mod\350le de classification binaire}{section.4.4}% 65
+\BOOKMARK [2][-]{subsection.4.4.2}{Mod\350le de classififcation multi \351tiquettes}{section.4.4}% 66
+\BOOKMARK [2][-]{subsection.4.4.3}{Keras:}{section.4.4}% 67
+\BOOKMARK [2][-]{subsection.4.4.4}{Autres: }{section.4.4}% 68
+\BOOKMARK [1][-]{section.4.5}{R\351alisation}{chapter.4}% 69
+\BOOKMARK [2][-]{subsection.4.5.1}{Application web}{section.4.5}% 70

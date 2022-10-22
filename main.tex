@@ -19,7 +19,9 @@
 \usepackage{enumitem}
 \usepackage{float}
 \usepackage{tabularx}
+\usepackage{ragged2e}
 \usepackage[table]{xcolor}
+\usepackage{xurl}
 
 
 \title{L'apport de l'inteligence artificielle sur les clichés de radiographie pédiatrique
@@ -36,58 +38,57 @@
     \newcommand{\myequations}[1]{%
     \addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}\par}
 
+    \chapter*{\centering Résumé}
+    Dans ce rapport nous abordons la question de l'apport de l'intelligence artificielle à l'interprétation des images radiographiques thoraciques, en particulier pour une population pédiatrique sur un certain nombre de pathologies.
 
-    \maketitle
-
-    \chapter*{Résumé}
-    La pratique de la médecine évolue avec le développement de nouvelles méthodes d'intelligence artificielle (IA) d'apprentissage automatique. 
+    L'analyse de l'existant pose un défi récurrent en la matière, à savoir le manque de données, tant en quantité qu'en nature. Notre projet porte donc sur l'enrichissement de la base de données par la collecte de données et par le développement d'une stratégie d'apprentissage qui résout ce genre de problème. Pour ce faire nous avons développé une application web de collecte de données médicales à savoir les images radiographiques et les rapports associés tout en préservant l'anonymat des patients concernés, puis nous avons procédé à la préparation de ces données pour constituer un jeu de données adapté aux séances d'apprentissage.
+    Dans un troisième temps, des modèles paramétrés ont été construits pour lancer un plan d'expériences afin d'optimiser le modèle en termes de précision et de performance. 
     
-    Associés à des améliorations rapides du traitement informatique, ces systèmes basés sur l'IA améliorent déjà la précision et l'efficacité du diagnostic et du traitement dans diverses spécialisations. 
-    
-    L'attention croissante portée à l'IA en radiologie a conduit certains experts à suggérer qu'un jour l'IA pourrait même remplacer les radiologues. 
-    
-    Ces suggestions soulèvent la question de savoir si les systèmes basés sur l'IA remplaceront éventuellement les médecins dans certaines spécialisations ou augmenteront le rôle des médecins sans les remplacer réellement. Pour évaluer l'impact sur les médecins, cette recherche vise à mieux comprendre cette technologie et comment elle transforme la médecine. 
-    
-    À cette fin, ce rapport étudie la possibilité de construire une IA ou plus particulièrement un modèle d'apprentissage en profondeur (DL) capable de traiter les radiographies pulmonaires pédiatriques et, en retour, de donner un diagnostic approprié à cette radiographie exacte.
-
-    ce problème a été soulevé par le service de radiologie du centre hospitalier universitaire mohamed six, en plus de 8 résidents bénévoles toutes les connaissances, expertises et équipements médicaux ont été fournis par cet hôpital.
-
-    Tous les efforts ont été donnés pour répondre si:
-
-    \begin{enumerate}
-        \item Le modèle d'apprentissage en profondeur est capable de traiter les radiographies pulmonaires pédiatriques.
-        \item Les systèmes basés sur l'IA finiront par remplacer les médecins.
-    \end{enumerate}
-
-    \vspace*{2cm}
-    \textbf{Mots clés:} Intelligence artificielle, Apprentissage automatique, Apprentissage profond, Radiographies thoraciques, Impact, Médecine, Médecin, Apprentissage profond, Radiologie, Pathologie.
-
-    \chapter*{Abstract}
-    The practice of medicine is changing with the development of new Artificial Intelligence (AI) methods of machine learning. 
-    
-    Coupled with rapid improvements in computer processing, these AI-based systems are already improving the accuracy and efficiency of diagnosis and treatment across various specializations. 
-    
-    The increasing focus of AI in radiology has led to some experts suggesting that someday AI may even replace radiologists. 
-    
-    These suggestions raise the question of whether AI-based systems will eventually replace physicians in some specializations or will augment the role of physicians without actually replacing them. To assess the impact on physicians this research seeks to better understand this technology and how it is transforming medicine. 
-    
-    To that end this report researches the possibility of building an AI or more particularly a deep learning (DL) model capable of processing pediatric chest x rays and in return giving a proper diagnostic to this exact x ray.
-
-    this problem was raised by the radiology department of the Mohamed six university hospital center,in addition to 8 volunteer residents all medical knowledge, expertise and equipment was provided by this hospital.
-
-    All efforts were giving in order to answer wether:
-
-    \begin{enumerate}
-        \item Deep learning model is capable of processing pediatric chest x rays.
-        \item AI-based systems will eventually replace physicians.
-    \end{enumerate}
+    Les premiers résultats affirment la viabilité de la méthode, mais suggèrent l'adaptation des hyperparamètres du modèle afin de réduire le phénomène de suradaptation et ils proposent également la subdivision de notre problème en sous-tâches d'apprentissage par pathologie afin de réduire la complexité et la dimensionnalité du problème.
 
 
     \vspace*{2cm}
-    \textbf{Keywords:} Artificial intelligence, Machine learning, Deep learning, Chest x rays, Impact, Medicine, Physician, Deep learning, Radiology, Pathology.
+    \textbf{Mots clés:} Intelligence artificielle, Apprentissage profond, Radiographie pulmonaire, Médecine, Radiologie, Pathologie, Pédiatrie.
 
-    \chapter*{Remerciment}
-    Je remercie\dots
+    \chapter*{\centering Abstract}
+    In this report we deal with the question of the contribution of artificial intelligence to the interpretation of thoracic X-ray images, in particular for a pediatric population on a number of pathologies.
+    
+    The analysis of what already exists raises a recurring challenge in this subject, namely the lack of data, both in quantity and in nature. Our project therefore focuses on the enrichment of the database by means of data collection and by the development of a learning strategy that solves this kind of problem. 
+    To do this we have developed a web application for the collection of medical data namely x-ray images and associated reports while maintaining the anonymity of the patients concerned, then we proceeded to the preparation of these data to build a data set suitable for learning sessions. 
+    Thirdly, parameterized models were built to launch a design of experiments in order to optimize the model in terms of precision and performance. 
+    
+    The first results affirm the viability of the method, but suggest the adaptation of the hyperparameters of the model in order to reduce the phenomenon of over-adaptation and they also propose the subdivision of our problem into learning sub-tasks by pathology in order to reduce the complexity and the dimensionality of the problem.
+
+
+    \vspace*{2cm}
+    \textbf{Keywords:} Artificial intelligence, Deep learning, Chest x rays, Medicine, Radiology, Pathology, Pediatric.
+
+    \chapter*{\centering Remerciment}
+    \centering
+        \subsubsection*{A ma maman, EL MORTAQY Rachida}
+        Tous les mots de la terre ne seront pas suffisants pour exprimer ce que je ressens envers toi. Tu m’as tout donné, tout transmis, et tu as sacrifié ta vie pour que je sois là où je suis aujourd’hui. Tu es ma mère, ma meilleure amie, ma sœur et ma confidente. Tu es ma boussole, qui m’a toujours guidé dans mes moments de doute et de faiblesse. Tes yeux, remplis d’amour et de courage, m’ont élevé au-dessus de tous les obstacles de la vie. Le sens de la responsabilité et la détermination que tu m’as inculquée seront toujours en moi. Tu ne peux savoir la joie que je ressens lorsqu’on me félicite de l’éducation que j’ai reçue et des qualités que tu as su cultiver en moi. Je suis fier d’avoir eu une femme, ambitieuse, généreuse, cultivée, joyeuse, qui a tant donné pour des générations d’élèves qui viennent te remercier de ce que tu leur as transmis. Je suis chanceux d’avoir une personne comme toi à mes côtés, et je remercie dieu pour cela à chaque instant.
+
+        Comme nous l’avons toujours dit, nous ne sommes pas que mère et fils, nous sommes partenaires, et cette réussite est autant la mienne que la tienne. Puisse Dieu te garder auprès de moi, en bonne santé, aussi longtemps que possible. Je t’aime.
+        \subsubsection*{A mon père, GHARAFI Aissa }
+        Long a été le chemin, nombreuses ont été les contraintes. Mais tu as su tenir tête, et te sacrifier, depuis le jour où je suis né. Comblé est le mot, quand je repense à l’amour que tu me portes, et qui a bercé mon enfance. Ta sagesse, ton sang-froid et ta patience, font de moi ce que je suis aujourd’hui. Tu as su créer la balance, au côté de maman, afin que je puisse recevoir la meilleure éducation possible. J’espère te rendre fier papa, et honorer ton nom. Je t’aime.
+        \subsubsection*{A Notre Encadrant Du PFE Et Juge De La Soutenance Professeur MASSAQ Abdellah, Professeur A L'Ecole National Des Sciences Appliquées }
+        C’est un réel honneur que vous acceptez d'encadrer mon travail de projet de fin d'étude, Votre disponibilité,sympathie ainsi que votre esprit
+
+        cartésien a été une véritable source d'inspiration tout au long de mon projet de fin d'étude. Notre école vous doit énormément et nous sommes fiers d’avoir un professeur comme vous. Veuillez trouver ici le témoignage de mon plus grand respect.
+        \subsubsection*{A Nos Encadrant Du PFE Professeur JALAL Hicham, Professeur De Radiologie Et Chef De Service De Radiologie, A Hôpital Universitaire Mohammed VI De Marrakech }
+        Permettez-moi de vous remercier du fin fond de mon cœur, pour la confiance que vous m’avez accordée, en me donnant à traiter un sujet aussi original. Travaillé sous votre direction était un réel honneur.Votre sérieux, vos qualités pédagogiques et votre intarissable bonté m’inspirent beaucoup d’admiration et de respect. Veuillez trouver ici, cher Professeur, le témoignage de ma profonde reconnaissance et de mon grand respect.
+
+        \subsubsection*{A Nos Maitres Et Juges De La Soutenance Professeurs ATLAS Abdelghafour et OUMOUN Mohamed, Professeur A L'école Ntionale Des Sciences Appliquées De Marrakech}
+        Je vous remercie de la spontanéité et l'extrême gentillesse avec laquelle vous avez bien voulu accepter de juger ce travail. Veuillez trouver ici, cher Professeur, le témoignage de ma profonde reconnaissance et de mon grand respect.
+        \subsubsection*{A toute la famille GHARAFI et EL MORTAQY, }
+        J’ai eu une chance inestimable d’être né dans deux familles aussi aimantes, généreuses et soudées. Je me suis toujours senti bercé par votre amour, porté par vos encouragements, et confiant par la sécurité que vous m’avez conférée.J’espère rendre fiers mes arrière-grands-parents, comme ils continuent à nous rendre tous fiers, des siècles après. 
+        \subsubsection*{Aux précieux amis rencontrésà l'ENSA', entre autres : LADRAA Adelhak, ESSERHIRE Mohamed, CHAIB Moncif , … }
+        Écrire mes sentiments pour chacun de vous me demandera surement plusieurs thèses. Je vous considère tous, sans exception, comme mes amis et frères. Nous avons partagé des moments qui m’ont laissé me rapprocher de vous. Vous êtes tous des personnes honnêtes, généreuses, bienveillantes et loyales, et c’est pour cela que vous avez une place particulière dans ma vie. En étant parmi vous, tout mon parcours en médecine n’a été que joie et bonheur. Je serai toujours là pour vous, car vous êtes et seriez toujours là pour vous. Je vous aime. 
+        
+    \justifying
+       
+        
+    
     \clearpage
     \tableofcontents
     \clearpage
@@ -121,45 +122,153 @@
     \include{realisation}
 
     \chapter*{Conclusion}
+    Notre projet s'articule autour de l'apport de l'intelligence artificielle à l'interprétation d'images radiographiques thoraciques, notamment pour une population pédiatrique sur 13 pathologies prédéfinies.
+    
+    Le manque de données a été principalement résolu avec la collecte de données, via l'interface de l'application Web Xpedia, en utilisant les ressources de l'UHC, y compris les équipements et un personnel de résidents, en utilisant également un ensemble de données adulte existant pour profiter des fonctionnalités d'apprentissage par transfert.
+    
+    La préparation des données a pris une portion importante et nécessaire du temps alloué aux projets, afin d'être entièrement préparé pour la phase de formation.
+
+    La construction de modèles d'apprentissage en profondeur s'est basée sur de nombreuses sessions de recherche et de lecture pour avoir une bonne idée des tenants et des aboutissants de certains des concepts d'apprentissage en profondeur entièrement développée, afin de les exploiter pleinement.
+
+    La phase d'apprentissage a également pris beaucoup de temps et de recherches, en particulier pour trouver des ressources externes alternatives pour exécuter nos scripts, ce qui nous a guidés vers HPC-MARWAN.
+
+    Les résultats valident nos hypothèses concernant la viabilité de la méthode et ils nous ont fourni des informations de base pour adapté et amélioré le modèle.
+
+    Ce fut un grand voyage explorant les technologies d'apprentissage en profondeur dans les avantages de la médecine J'ai certainement beaucoup appris et il y a beaucoup plus à apprendre tout au long des phases et expériences futures de ce projet
     \clearpage
 
-    \chapter*{Annexe}
+    \chapter*{Références}
+    [01]     Yoo et al., « AI-Based Improvement in Lung Cancer Detection on Chest Radiographs »;
+
+    [02]     Rangarajan et al., « Artificial Intelligence–assisted chest X-ray assessment scheme for COVID-19 »;
+   
+    [03]     Tang et al., « Automated Abnormality Classification of Chest Radiographs Using Deep Convolutional Neural Networks »;
+   
+    [04]     O’Brien et al., « Causes of Severe Pneumonia Requiring Hospital Admission in Children without HIV Infection from Africa and Asia »;
+   
+    [05]     Chen et al., « Deep Learning for Classification of Pediatric Chest Radiographs by WHO’s Standardized Methodology »;
+   
+    [06]     « History of Artificial Intelligence in Medicine | Elsevier Enhanced Reader »; Kermany et al., « Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning »;
+   
+    [07]     E. Blondiaux, C. de Labriolle-Vaylet (Nom), « Imagerie pédiatrique »; « Intelligence Artificielle et Imagerie Médicale »;
+   
+    [08]     « L’intelligence artificielle en médecine | IBM »; Anichini et Geffroy, « L’intelligence artificielle à l’épreuve des savoirs tacites. Analyse des pratiques d’utilisation d’un outil d’aide à la détection en radiologie », 2021;
+   
+    [09]     Anichini et Geffroy, « L’intelligence artificielle à l’épreuve des savoirs tacites. Analyse des pratiques d’utilisation d’un outil d’aide à la détection en radiologie », 2021;
+   
+    [10]    Padash et al., « Pediatric chest radiograph interpretation »;
+   
+    [11]    Tang, « The role of artificial intelligence in medical imaging research »;
+    
+    [12]    Rahman et al., « Transfer Learning with Deep Convolutional Neural Network (CNN) for Pneumonia Detection Using Chest X-Ray »;
+    
+    [13]    Qin et al., « Tuberculosis Detection from Chest X-Rays for Triaging in a High Tuberculosis-Burden Setting »;
+    
+    [14]    Nguyen et al., « Viral and Bacterial Pneumonia Diagnosis via Deep Learning Techniques and Model Explainability ».
+
+    [15]    V.M. Corman et al., Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR. Euro. Surveill. 25(3), 2000045 (2020).
+    
+    [16]    Y. Fang et al., Sensitivity of Chest CT for COVID-19: comparison to RT-PCR. Radiology 296(2), E115–E117 (2020).
+
+    [17]    T.C. Williams et al., Sensitivity of RT-PCR testing of upper respiratory tract samples for SARS-CoV-2 in hospitalised patients: a retrospective cohort study. medRxiv (2020).
+
+    [18]    J.P. Kanne, B.P. Little, J.H. Chung, B.M. Elicker, L.H. Ketai, Essentials for radiologists on COVID-19: An Update—Radiology Scientific Expert Panel. Radiology 296(2), E113–E114 (2020).
+
+    [19]    J.F.-W. Chan et al., A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster. Lancet 395(10223), 514–523 (2020).
+
+    [20]    L.A. Rousan, E. Elobeid, M. Karrar, Y. Khader, Chest x-ray findings and temporal lung changes in patients with COVID-19 pneumonia. BMC Pulmonary Med. 20(1), 245 (2020).
+
+    [21]    S. Asif, Y. Wenhui, H. Jin, Y. Tao, S. Jinhai, Classification of COVID-19 from chest X-ray images using deep convolutional neural networks. medRxiv (2020).
+
+    [22]    S. Anis et al., An overview of deep learning approaches in chest radiograph. IEEE Access 8, 182347–182354 (2020).
+
+    [23]    A. Shelke et al., Chest X-ray classification using deep learning for automated COVID-19 screening. medRxiv (2020).
+
+    [24]    A. K. Das, S. Ghosh, S. Thunder, R. Dutta, S. Agarwal, and A. Chakrabarti, "Automatic COVID-19 detection from X-ray images using ensemble learning with convolutional neural network," Pattern Analysis and Applications. 2021/03/19 2021. 
+
+    \subsection*{Wikipedia: }
+    \url{https://en.wikipedia.org/wiki/Deep_learning}
+
+    \url{https://en.wikipedia.org/wiki/Transfer_learning}
+    \subsection*{Towards Data Science:}
+    \url{https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73}
+
+    \url{https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a}
+
+    \url{https://towardsdatascience.com/feature-extraction-techniques-d619b56e31be}
+    \subsection*{Medium:}
+    \url{https://medium.com/@iamarjunchandra/mixed-input-data-in-pytorch-cnn-mlp-8aeff336e8a3}
+
+    \url{https://medium.com/@mehulved1503/feature-selection-and-feature-extraction-in-machine-learning-an-overview-57891c595e96}
+
+    \subsection*{Machine Learning Mastery:}
+    \url{https://machinelearningmastery.com/transfer-learning-for-deep-learning/}
+
+    \url{https://machinelearningmastery.com/convolutional-layers-for-deep-learning-neural-networks/}
+
+    \subsection*{GitHub:}
+    \url{https://github.com/poloclub/cnn-explainer}
+
+    \url{https://github.com/topics/variational-autoencoders}
+
+    \subsection{Keras:}
+    \url{https://keras.io/api/layers/convolution_layers/convolution2d/}
+
+    \url{https://keras.io/api/layers/activations/#relu-function}
+
+    \url{https://keras.io/api/layers/activations/#sigmoid-function}
+
+    \url{https://keras.io/api/layers/core_layers/dense/}
+
+    \url{https://keras.io/api/layers/pooling_layers/max_pooling2d/}
+
+    \url{https://keras.io/api/layers/normalization_layers/batch_normalization/}
+
+    \url{https://keras.io/api/layers/regularization_layers/dropout/}
+
+    \subsection{Autres: }
+
+    \url{https://www.mongodb.com/mern-stack}
+
+    \url{https://beta.reactjs.org/}
+
+    \chapter*{Annexe}\label{Annex}
     \section{Réalisation}
     \subsection{Application web}
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.5\textwidth]{xpedia_log.png}
-        \caption{La login de Xpedia}\label{fig:xpedia_log}
+        \caption{La page login de Xpedia}\label{fig:xpedia_log}
     \end{figure}
     \begin{figure}[H]
         \centering
         \includegraphics[width=\textwidth]{xpedia_dashboard.png}
-        \caption{Le dashboard}\label{fig:xpedia_dashboard}
+        \caption{Le Dashboard}\label{fig:xpedia_dashboard}
     \end{figure}
     \begin{figure}[H]
         \centering
         \includegraphics[width=1\textwidth]{xpedia_menu.png}
-        \caption{La menu}\label{fig:xpedia_menu}
+        \caption{Le menu}\label{fig:xpedia_menu}
     \end{figure}
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.4\textwidth]{xpedia_select_section.png}
-        \caption{La section de selection des diagnostiques}\label{fig:xpedia_select_section}
+        \caption{La section de sélection des diagnostics}\label{fig:xpedia_select_section}
     \end{figure}
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.4\textwidth]{xpedia_select_items.png}
-        \caption{Exemple de selection des diagnostiques}\label{fig:xpedia_select_items}
+        \caption{Exemple de sélection des diagnostics}\label{fig:xpedia_select_items}
     \end{figure}
     \begin{figure}[H]
         \centering
         \includegraphics[width=\textwidth]{xpedia_cr.png}
-        \caption{La section du remplissage du compte rendue}\label{fig:xpedia_cr}
+        \caption{La section du remplissage du compte rendu}\label{fig:xpedia_cr}
     \end{figure}
     \begin{figure}[H]
         \centering
         \includegraphics[width=\textwidth]{xpedia_browse_item.png}
-        \caption{La page 'browse items'}\label{fig:xpedia_menu}
+        \caption{La page ’browse items’}\label{fig:xpedia_menu}
     \end{figure}
     \begin{figure}[H]
         \centering
@@ -169,21 +278,22 @@
     \begin{figure}[H]
         \centering
         \includegraphics[width=\textwidth]{xpedia_pagination.png}
-        \caption{La menu}\label{fig:xpedia_menu}
+        \caption{La section pagination}\label{fig:xpedia_menu}
     \end{figure}
     
     \begin{figure}[H]
         \centering
         \includegraphics[width=1\textwidth]{xpedia_view_page.png}
-        \caption{Les détailles de l'élément}\label{fig:xpedia_view_page}
+        \caption{Les détaille de l’élément}\label{fig:xpedia_view_page}
     \end{figure}
     
     \begin{figure}[H]
         \centering
         \includegraphics[width=\textwidth]{xpedia_edit_page.png}
-        \caption{La page d'edition de l'élément}\label{fig:xpedia_item_thumbnail}
+        \caption{La page d’édition de l’élément}\label{fig:xpedia_item_thumbnail}
     \end{figure}
 
-
+    \url{https://github.com/GharafiHamza/xpedia_db_cleaning}\label{repo}
+    
 
 \end{document}

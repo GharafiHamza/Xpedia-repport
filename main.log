@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.25)  30 SEP 2022 04:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.25)  22 OCT 2022 22:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -413,6 +413,25 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \TX@delta=\dimen183
 \TX@cols=\count293
 \TX@ftn=\toks28
+) (/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
+ (/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip92
+\RaggedLeftLeftskip=\skip93
+\RaggedRightLeftskip=\skip94
+\CenteringRightskip=\skip95
+\RaggedLeftRightskip=\skip96
+\RaggedRightRightskip=\skip97
+\CenteringParfillskip=\skip98
+\RaggedLeftParfillskip=\skip99
+\RaggedRightParfillskip=\skip100
+\JustifyingParfillskip=\skip101
+\CenteringParindent=\skip102
+\RaggedLeftParindent=\skip103
+\RaggedRightParindent=\skip104
+\JustifyingParindent=\skip105
 ) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -422,7 +441,7 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
  (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 \everycr=\toks29
-\minrowclearance=\skip92
+\minrowclearance=\skip106
 )
 \rownum=\count294
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -434,24 +453,13 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2020/01/24 v 0.09 modify URL breaks
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count295
 \l__pdf_internal_box=\box98
-) (/home/gharafi/Documents/My Repports/Xpedia Report/main.aux (/home/gharafi/Documents/My Repports/Xpedia Report/general_project_context.aux) (/home/gharafi/Documents/My Repports/Xpedia Report/deeplearning.aux) (/home/gharafi/Documents/My Repports/Xpedia Report/technique.aux) (/home/gharafi/Documents/My Repports/Xpedia Report/realisation.aux
-
-LaTeX Warning: Label `fig:binary_history' multiply defined.
-
-
-LaTeX Warning: Label `fig:binary_history@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:binary_history' multiply defined.
-
-
-LaTeX Warning: Label `fig:binary_history@cref' multiply defined.
-
-)
+) (/home/gharafi/Documents/My Repports/Xpedia Report/main.aux (/home/gharafi/Documents/My Repports/Xpedia Report/general_project_context.aux) (/home/gharafi/Documents/My Repports/Xpedia Report/deeplearning.aux) (/home/gharafi/Documents/My Repports/Xpedia Report/technique.aux) (/home/gharafi/Documents/My Repports/Xpedia Report/realisation.aux)
 
 LaTeX Warning: Label `fig:xpedia_menu' multiply defined.
 
@@ -473,36 +481,36 @@ LaTeX Warning: Label `fig:xpedia_item_thumbnail@cref' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Info: Redefining \degres on input line 32.
-LaTeX Info: Redefining \dots on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Info: Redefining \degres on input line 34.
+LaTeX Info: Redefining \dots on input line 34.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 32.
+(french.ldf)             reported on input line 34.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 32.
-LaTeX Info: Redefining \up on input line 32.
+(french.ldf)             reported on input line 34.
+LaTeX Info: Redefining \up on input line 34.
 
 
 Package french.ldf Warning: OT1 encoding should not be used for French.
 (french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(french.ldf)                of your document; reported on input line 32.
+(french.ldf)                of your document; reported on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -539,7 +547,7 @@ Package french.ldf Warning: OT1 encoding should not be used for French.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box99
-Package hyperref Info: Link coloring ON on input line 32.
+Package hyperref Info: Link coloring ON on input line 34.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -549,9 +557,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count296
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
  (/home/gharafi/Documents/My Repports/Xpedia Report/main.out) (/home/gharafi/Documents/My Repports/Xpedia Report/main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -574,27 +582,23 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
+)) ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 34.
 \c@myequations=\count303
-\cftbeforemyequationsskip=\skip93
-\cftmyequationsindent=\skip94
-\cftmyequationsnumwidth=\skip95
+\cftbeforemyequationsskip=\skip107
+\cftmyequationsindent=\skip108
+\cftmyequationsnumwidth=\skip109
 \c@equdepth=\count304
-\cftbeforeequtitleskip=\skip96
-\cftafterequtitleskip=\skip97
+\cftbeforeequtitleskip=\skip110
+\cftafterequtitleskip=\skip111
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.65     \chapter
-                 *{Abstract} [1
 
-] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ] [3
 
-] (/home/gharafi/Documents/My Repports/Xpedia Report/main.toc
+] [4] (/home/gharafi/Documents/My Repports/Xpedia Report/main.toc
 Overfull \hbox (4.18738pt too wide) in paragraph at lines 11--11
  [][] [][][]\OT1/cmr/m/n/12 Les dif-fe-rences ra-dio ana-to-miques entre les clich^^Ses p^^Sediatriques 
  []
@@ -604,43 +608,43 @@ Overfull \hbox (3.56516pt too wide) in paragraph at lines 14--14
  [][] [][][]\OT1/cmr/m/n/12 Mod^^Reles de d^^Setection au-to-ma-tiques de pa-tho-lo-gies tho-ra-ciques 
  []
 
-[4
+[5
 
 ])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [5] (/home/gharafi/Documents/My Repports/Xpedia Report/main.lof [6
+ [6] (/home/gharafi/Documents/My Repports/Xpedia Report/main.lof [7
 
-] [7])
+] [8])
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [8] (/home/gharafi/Documents/My Repports/Xpedia Report/main.lot)
+ [9] (/home/gharafi/Documents/My Repports/Xpedia Report/main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [9
+ [10
 
 ] (/home/gharafi/Documents/My Repports/Xpedia Report/main.equ)
 \tf@equ=\write7
 \openout7 = `main.equ'.
 
- [10
+ [11
 
-] [11
+] [12
 
-] [12]
+] [13]
 \openout2 = `general_project_context.aux'.
 
  (/home/gharafi/Documents/My Repports/Xpedia Report/general_project_context.tex
 Chapitre 1.
-<./resources/icon_chu.png, id=585, 256.96pt x 256.96pt>
+<./resources/icon_chu.png, id=597, 256.96pt x 256.96pt>
 File: ./resources/icon_chu.png Graphic file (type png)
 <use ./resources/icon_chu.png>
 Package pdftex.def Info: ./resources/icon_chu.png  used on input line 11.
 (pdftex.def)             Requested size: 140.92793pt x 140.9285pt.
-[13
+[14
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) has been already used, duplicate ignored
@@ -648,13 +652,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) h
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.15 
-      <./resources/icon_chu.png>] [14] [15]
-<./resources/thorax_osseux.png, id=616, 702.625pt x 671.50874pt>
+      <./resources/icon_chu.png>] [15] [16]
+<./resources/thorax_osseux.png, id=628, 702.625pt x 671.50874pt>
 File: ./resources/thorax_osseux.png Graphic file (type png)
 <use ./resources/thorax_osseux.png>
 Package pdftex.def Info: ./resources/thorax_osseux.png  used on input line 110.
 (pdftex.def)             Requested size: 187.89914pt x 179.57814pt.
-<./resources/dia_mediastinal.png, id=617, 2006.49625pt x 1379.1525pt>
+<./resources/dia_mediastinal.png, id=629, 2006.49625pt x 1379.1525pt>
 File: ./resources/dia_mediastinal.png Graphic file (type png)
 <use ./resources/dia_mediastinal.png>
 Package pdftex.def Info: ./resources/dia_mediastinal.png  used on input line 117.
@@ -664,12 +668,12 @@ Overfull \hbox (3.45056pt too wide) in paragraph at lines 120--120
 []\OT1/cmr/bx/n/12 Les dif-fe-rences ra-dio ana-to-miques entre les clich^^Ses p^^Sediatriques et adultes 
  []
 
-<./resources/differences.png, id=618, 2006.49625pt x 975.645pt>
+<./resources/differences.png, id=630, 2006.49625pt x 975.645pt>
 File: ./resources/differences.png Graphic file (type png)
 <use ./resources/differences.png>
 Package pdftex.def Info: ./resources/differences.png  used on input line 126.
 (pdftex.def)             Requested size: 281.85587pt x 137.05086pt.
-[16pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) has been already used, duplicate ignored
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -680,12 +684,12 @@ l.128             \end{figure}
                                                   \fi \fi 
 l.128             \end{figure}
                                <./resources/thorax_osseux.png> <./resources/dia_mediastinal.png>]
-<./resources/thymus_enfant.png, id=624, 2006.49625pt x 1507.6325pt>
+<./resources/thymus_enfant.png, id=636, 2006.49625pt x 1507.6325pt>
 File: ./resources/thymus_enfant.png Graphic file (type png)
 <use ./resources/thymus_enfant.png>
 Package pdftex.def Info: ./resources/thymus_enfant.png  used on input line 134.
 (pdftex.def)             Requested size: 281.85587pt x 211.78026pt.
- [17pdfTeX warning (ext4): destination with the same identifier (name{figure.1.4}) has been already used, duplicate ignored
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.1.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -696,12 +700,12 @@ l.142                 \item D
                                                   \fi \fi 
 l.142                 \item D
                              éviation trachéale: <./resources/differences.png> <./resources/thymus_enfant.png>]
-<./resources/tracheal.png, id=635, 2006.49625pt x 892.33376pt>
+<./resources/tracheal.png, id=648, 2006.49625pt x 892.33376pt>
 File: ./resources/tracheal.png Graphic file (type png)
 <use ./resources/tracheal.png>
 Package pdftex.def Info: ./resources/tracheal.png  used on input line 145.
 (pdftex.def)             Requested size: 281.85587pt x 125.34796pt.
- [18pdfTeX warning (ext4): destination with the same identifier (name{figure.1.6}) has been already used, duplicate ignored
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.1.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -716,142 +720,153 @@ Overfull \hbox (4.43877pt too wide) in paragraph at lines 203--204
 []\OT1/cmr/m/n/12 Padash et al.ont iden-tifi^^Se 55 ar-ticles met-tant en ^^[uvre un mod^^Rele d'IA pour l'in-terpr^^Setation
  []
 
-<./resources/structure_gen.jpg, id=662, 1787.67876pt x 1119.18124pt>
+<./resources/structure_gen.jpg, id=674, 1787.67876pt x 1119.18124pt>
 File: ./resources/structure_gen.jpg Graphic file (type jpg)
 <use ./resources/structure_gen.jpg>
 Package pdftex.def Info: ./resources/structure_gen.jpg  used on input line 210.
-(pdftex.def)             Requested size: 328.82707pt x 205.84987pt.
-[19] [20pdfTeX warning (ext4): destination with the same identifier (name{figure.1.7}) has been already used, duplicate ignored
+(pdftex.def)             Requested size: 469.75502pt x 294.08833pt.
+[20] [21pdfTeX warning (ext4): destination with the same identifier (name{figure.1.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.230     \end{enumerate}
-                          <./resources/structure_gen.jpg>]) [21]
+l.227         \item
+                    Création d'une base de données pédiatrique étiqueté... <./resources/structure_gen.jpg>]) [22]
 \openout2 = `deeplearning.aux'.
 
  (/home/gharafi/Documents/My Repports/Xpedia Report/deeplearning.tex
 Chapitre 2.
-<./resources/history-of-ai.jpg, id=683, 1787.67876pt x 2527.4425pt>
+[23
+
+
+
+]
+<./resources/history-of-ai.jpg, id=701, 1787.67876pt x 2527.4425pt>
 File: ./resources/history-of-ai.jpg Graphic file (type jpg)
 <use ./resources/history-of-ai.jpg>
-Package pdftex.def Info: ./resources/history-of-ai.jpg  used on input line 13.
+Package pdftex.def Info: ./resources/history-of-ai.jpg  used on input line 16.
 (pdftex.def)             Requested size: 375.80544pt x 531.31851pt.
-[22
-
-
-
-] [23pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.22 
-      <./resources/history-of-ai.jpg>]
-<./resources/perceptron.png, id=693, 1094.0875pt x 602.25pt>
+<./resources/perceptron.png, id=702, 1094.0875pt x 602.25pt>
 File: ./resources/perceptron.png Graphic file (type png)
 <use ./resources/perceptron.png>
-Package pdftex.def Info: ./resources/perceptron.png  used on input line 27.
+Package pdftex.def Info: ./resources/perceptron.png  used on input line 29.
 (pdftex.def)             Requested size: 328.22878pt x 180.67639pt.
- [24pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.49             N
-                  ous ajoutons un terme appelé biais « b » à cette somme... <./resources/perceptron.png>]
-<./resources/multi_layer_perce.png, id=701, 1109.14375pt x 884.30376pt>
+l.32             \end{figure}
+                              <./resources/history-of-ai.jpg>] [25pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.61 
+      <./resources/perceptron.png>]
+<./resources/multi_layer_perce.png, id=714, 1109.14375pt x 884.30376pt>
 File: ./resources/multi_layer_perce.png Graphic file (type png)
 <use ./resources/multi_layer_perce.png>
-Package pdftex.def Info: ./resources/multi_layer_perce.png  used on input line 72.
+Package pdftex.def Info: ./resources/multi_layer_perce.png  used on input line 74.
 (pdftex.def)             Requested size: 375.80544pt x 299.62032pt.
- [25pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
+ [26pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.79 
+l.81 
       <./resources/multi_layer_perce.png>]
-<./resources/conv_stand_arch.png, id=710, 1629.08624pt x 920.43875pt>
+<./resources/conv_stand_arch.png, id=723, 1629.08624pt x 920.43875pt>
 File: ./resources/conv_stand_arch.png Graphic file (type png)
 <use ./resources/conv_stand_arch.png>
-Package pdftex.def Info: ./resources/conv_stand_arch.png  used on input line 85.
+Package pdftex.def Info: ./resources/conv_stand_arch.png  used on input line 87.
 (pdftex.def)             Requested size: 469.75502pt x 265.40356pt.
- [26pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
+ [27pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.93 
+l.95 
       <./resources/conv_stand_arch.png>]
-Overfull \hbox (4.45619pt too wide) in paragraph at lines 110--111
+Overfull \hbox (4.45619pt too wide) in paragraph at lines 112--113
 \OT1/cmr/m/n/12 dans son en-semble. Le but est de clas-ser les images en leur at-tri-buant des ^^Setiquettes sp^^Secifiques.
  []
 
-[27] [28]) [29]
+[28]
+<./resources/transfered.png, id=735, 1787.67876pt x 1119.18124pt>
+File: ./resources/transfered.png Graphic file (type png)
+<use ./resources/transfered.png>
+Package pdftex.def Info: ./resources/transfered.png  used on input line 146.
+(pdftex.def)             Requested size: 375.80544pt x 235.27408pt.
+ [29]) [30pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.120     \include{deeplearning}
+                                 <./resources/transfered.png>]
 \openout2 = `technique.aux'.
 
  (/home/gharafi/Documents/My Repports/Xpedia Report/technique.tex
 Chapitre 3.
 File: ./resources/structure_gen.jpg Graphic file (type jpg)
 <use ./resources/structure_gen.jpg>
-Package pdftex.def Info: ./resources/structure_gen.jpg  used on input line 18.
-(pdftex.def)             Requested size: 328.82707pt x 205.84987pt.
-[30
+Package pdftex.def Info: ./resources/structure_gen.jpg  used on input line 21.
+(pdftex.def)             Requested size: 469.75502pt x 294.08833pt.
+[31
 
 
 
 ]
-<./resources/xpedia_arc.png, id=747, 1362.08875pt x 1547.7825pt>
+<./resources/xpedia_arc.png, id=763, 1362.08875pt x 1547.7825pt>
 File: ./resources/xpedia_arc.png Graphic file (type png)
 <use ./resources/xpedia_arc.png>
-Package pdftex.def Info: ./resources/xpedia_arc.png  used on input line 25.
+Package pdftex.def Info: ./resources/xpedia_arc.png  used on input line 37.
 (pdftex.def)             Requested size: 469.75502pt x 533.79662pt.
- [31pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
+ [32pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.28         \subsubsection
-                           {UML}] [32pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.30 
-      <./resources/xpedia_arc.png>]
-<./resources/class_dia.png, id=757, 1355.0625pt x 928.46875pt>
+l.40 
+     ]
+<./resources/class_dia.png, id=770, 1355.0625pt x 928.46875pt>
 File: ./resources/class_dia.png Graphic file (type png)
 <use ./resources/class_dia.png>
-Package pdftex.def Info: ./resources/class_dia.png  used on input line 36.
+Package pdftex.def Info: ./resources/class_dia.png  used on input line 44.
 (pdftex.def)             Requested size: 375.80544pt x 257.4902pt.
-<./resources/cas_auth.png, id=758, 846.16125pt x 987.69pt>
+ [33pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.47 
+      <./resources/xpedia_arc.png>]
+<./resources/cas_auth.png, id=776, 846.16125pt x 987.69pt>
 File: ./resources/cas_auth.png Graphic file (type png)
 <use ./resources/cas_auth.png>
-Package pdftex.def Info: ./resources/cas_auth.png  used on input line 47.
+Package pdftex.def Info: ./resources/cas_auth.png  used on input line 53.
 (pdftex.def)             Requested size: 234.8775pt x 274.15503pt.
- [33pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
+ [34pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.50 
-      <./resources/class_dia.png>]
-<./resources/cas_add.png, id=768, 817.0525pt x 891.33pt>
+l.59                         \item l
+                                    'utilisateur fournit le nom d'utilisateu...pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.59                         \item l
+                                    'utilisateur fournit le nom d'utilisateu... <./resources/class_dia.png> <./resources/cas_auth.png>]
+<./resources/cas_add.png, id=785, 817.0525pt x 891.33pt>
 File: ./resources/cas_add.png Graphic file (type png)
 <use ./resources/cas_add.png>
-Package pdftex.def Info: ./resources/cas_add.png  used on input line 59.
+Package pdftex.def Info: ./resources/cas_add.png  used on input line 65.
 (pdftex.def)             Requested size: 234.8775pt x 256.22139pt.
- [34pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.62                 \end{enumerate}
-                                     <./resources/cas_auth.png>]
-<./resources/data-preprocessing.jpg, id=775, 1787.67876pt x 859.21pt>
+<./resources/data-preprocessing.jpg, id=786, 1787.67876pt x 859.21pt>
 File: ./resources/data-preprocessing.jpg Graphic file (type jpg)
 <use ./resources/data-preprocessing.jpg>
-Package pdftex.def Info: ./resources/data-preprocessing.jpg  used on input line 71.
+Package pdftex.def Info: ./resources/data-preprocessing.jpg  used on input line 77.
 (pdftex.def)             Requested size: 375.80544pt x 180.62297pt.
  [35pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.74         \subsubsection
+l.80         \subsubsection
                            {Integration} <./resources/cas_add.png>]
-Overfull \hbox (6.79968pt too wide) in paragraph at lines 86--87
+Overfull \hbox (6.79968pt too wide) in paragraph at lines 92--93
 []\OT1/cmr/m/n/12 La r^^Seduction des donn^^Sees si-gni-fie la r^^Seduction de cer-tains as-pects des donn^^Sees, g^^Sen^^Seralement
  []
 
@@ -859,428 +874,704 @@ Overfull \hbox (6.79968pt too wide) in paragraph at lines 86--87
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.87 
+l.93 
       <./resources/data-preprocessing.jpg>]
-<./resources/adulte_model_train.png, id=789, 1805.74625pt x 871.255pt>
-File: ./resources/adulte_model_train.png Graphic file (type png)
-<use ./resources/adulte_model_train.png>
-Package pdftex.def Info: ./resources/adulte_model_train.png  used on input line 103.
-(pdftex.def)             Requested size: 469.75502pt x 226.6539pt.
+<./resources/model-adult-vert.png, id=801, 935.495pt x 1468.48625pt>
+File: ./resources/model-adult-vert.png Graphic file (type png)
+<use ./resources/model-adult-vert.png>
+Package pdftex.def Info: ./resources/model-adult-vert.png  used on input line 111.
+(pdftex.def)             Requested size: 375.80544pt x 589.91612pt.
  [37]
-<./resources/pedia_model_train.png, id=796, 1727.45375pt x 599.23875pt>
-File: ./resources/pedia_model_train.png Graphic file (type png)
-<use ./resources/pedia_model_train.png>
-Package pdftex.def Info: ./resources/pedia_model_train.png  used on input line 111.
-(pdftex.def)             Requested size: 469.75502pt x 162.94872pt.
+<./resources/model-ped-vert.png, id=809, 935.495pt x 1511.6475pt>
+File: ./resources/model-ped-vert.png Graphic file (type png)
+<use ./resources/model-ped-vert.png>
+Package pdftex.def Info: ./resources/model-ped-vert.png  used on input line 118.
+(pdftex.def)             Requested size: 375.80544pt x 607.25475pt.
  [38pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.116     \subsection
-                     {Architecture logicielle}pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) has been already used, duplicate ignored
+l.121 \section
+              {Choix techniques} <./resources/model-adult-vert.png>] [39pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.116     \subsection
-                     {Architecture logicielle} <./resources/adulte_model_train.png> <./resources/pedia_model_train.png>]
-<./resources/log_arc.jpg, id=804, 1787.67876pt x 1119.18124pt>
+l.123     \subsection
+                     {Architecture logicielle} <./resources/model-ped-vert.png>]
+<./resources/log_arc.jpg, id=820, 1787.67876pt x 1119.18124pt>
 File: ./resources/log_arc.jpg Graphic file (type jpg)
 <use ./resources/log_arc.jpg>
-Package pdftex.def Info: ./resources/log_arc.jpg  used on input line 124.
+Package pdftex.def Info: ./resources/log_arc.jpg  used on input line 131.
 (pdftex.def)             Requested size: 469.75502pt x 294.08833pt.
-<./resources/MERN.png, id=805, 1505.625pt x 752.8125pt>
+<./resources/MERN.png, id=821, 1505.625pt x 752.8125pt>
 File: ./resources/MERN.png Graphic file (type png)
 <use ./resources/MERN.png>
-Package pdftex.def Info: ./resources/MERN.png  used on input line 131.
+Package pdftex.def Info: ./resources/MERN.png  used on input line 138.
 (pdftex.def)             Requested size: 281.85587pt x 121.224pt.
- [39pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) has been already used, duplicate ignored
+ [40pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.134     \paragraph
+l.141     \paragraph
                     {MERN Stack} est un ensemble de technologies puissantes ... <./resources/log_arc.jpg>]
-Overfull \hbox (6.04912pt too wide) in paragraph at lines 134--135
+Overfull \hbox (6.04912pt too wide) in paragraph at lines 141--142
  []\OT1/cmr/bx/n/12 MERN Stack[] \OT1/cmr/m/n/12 est un en-semble de tech-no-lo-gies puis-santes et fiables uti-lis^^Sees pour d^^Sevelopper
  []
 
-<./resources/atlass_mdb.png, id=811, 1003.75pt x 602.25pt>
+<./resources/atlass_mdb.png, id=827, 1003.75pt x 602.25pt>
 File: ./resources/atlass_mdb.png Graphic file (type png)
 <use ./resources/atlass_mdb.png>
-Package pdftex.def Info: ./resources/atlass_mdb.png  used on input line 147.
+Package pdftex.def Info: ./resources/atlass_mdb.png  used on input line 154.
 (pdftex.def)             Requested size: 281.85587pt x 169.11589pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--149
+Underfull \hbox (badness 10000) in paragraph at lines 151--156
 
  []
 
-[40pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10}) has been already used, duplicate ignored
+[41pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.152 
+l.159 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.152 
+l.159 
        <./resources/MERN.png (PNG copy)> <./resources/atlass_mdb.png>]
-<./resources/express.png, id=821, 1204.5pt x 736.7525pt>
+<./resources/express.png, id=837, 1204.5pt x 736.7525pt>
 File: ./resources/express.png Graphic file (type png)
 <use ./resources/express.png>
-Package pdftex.def Info: ./resources/express.png  used on input line 158.
+Package pdftex.def Info: ./resources/express.png  used on input line 165.
 (pdftex.def)             Requested size: 281.85587pt x 172.3949pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--160
+Underfull \hbox (badness 10000) in paragraph at lines 162--167
 
  []
 
-<./resources/react.png, id=822, 523.9575pt x 344.28625pt>
+<./resources/react.png, id=838, 523.9575pt x 344.28625pt>
 File: ./resources/react.png Graphic file (type png)
 <use ./resources/react.png>
-Package pdftex.def Info: ./resources/react.png  used on input line 168.
+Package pdftex.def Info: ./resources/react.png  used on input line 180.
 (pdftex.def)             Requested size: 281.85587pt x 185.20784pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--170
-
- []
-
-[41pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12}) has been already used, duplicate ignored
+[42pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.172         R
-               eact est une bibliothèque JavaScript pour créer des interfa... <./resources/express.png>]
-<./resources/heroku.png, id=830, 1204.5pt x 632.3625pt>
+l.183 
+       <./resources/express.png>]
+<./resources/heroku.png, id=846, 1204.5pt x 632.3625pt>
 File: ./resources/heroku.png Graphic file (type png)
 <use ./resources/heroku.png>
-Package pdftex.def Info: ./resources/heroku.png  used on input line 185.
+Package pdftex.def Info: ./resources/heroku.png  used on input line 194.
 (pdftex.def)             Requested size: 281.85587pt x 147.96837pt.
- [42pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13}) has been already used, duplicate ignored
+ [43pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.188 
-       <./resources/react.png>]
-<./resources/github.png, id=837, 3854.4pt x 2168.1pt>
+l.200 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.200 
+       <./resources/react.png> <./resources/heroku.png (PNG copy)>]
+<./resources/github.png, id=853, 3854.4pt x 2168.1pt>
 File: ./resources/github.png Graphic file (type png)
 <use ./resources/github.png>
-Package pdftex.def Info: ./resources/github.png  used on input line 195.
+Package pdftex.def Info: ./resources/github.png  used on input line 204.
 (pdftex.def)             Requested size: 281.85587pt x 158.53134pt.
-<./resources/vscode.png, id=838, 481.8pt x 240.9pt>
+<./resources/vscode.png, id=854, 481.8pt x 240.9pt>
 File: ./resources/vscode.png Graphic file (type png)
 <use ./resources/vscode.png>
-Package pdftex.def Info: ./resources/vscode.png  used on input line 202.
+Package pdftex.def Info: ./resources/vscode.png  used on input line 211.
 (pdftex.def)             Requested size: 281.85587pt x 140.93143pt.
- [43pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14}) has been already used, duplicate ignored
+ [44pdfTeX warning (ext4): destination with the same identifier (name{figure.3.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.205     V
-           isual Studio Code est un éditeur de code source léger mais puis...pdfTeX warning (ext4): destination with the same identifier (name{figure.3.15}) has been already used, duplicate ignored
+l.215 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.205     V
-           isual Studio Code est un éditeur de code source léger mais puis... <./resources/heroku.png (PNG copy)> <./resources/github.png>]
-<./resources/python.png, id=844, 1897.0875pt x 803.0pt>
+l.215 
+       <./resources/github.png> <./resources/vscode.png>]
+<./resources/python.png, id=862, 1897.0875pt x 803.0pt>
 File: ./resources/python.png Graphic file (type png)
 <use ./resources/python.png>
-Package pdftex.def Info: ./resources/python.png  used on input line 214.
+Package pdftex.def Info: ./resources/python.png  used on input line 223.
 (pdftex.def)             Requested size: 281.85587pt x 119.30528pt.
- [44pdfTeX warning (ext4): destination with the same identifier (name{figure.3.16}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.219 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.17}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.219 
-       <./resources/vscode.png> <./resources/python.png>]
-<./resources/numpy.png, id=851, 767.86874pt x 307.1475pt>
+<./resources/numpy.png, id=863, 767.86874pt x 307.1475pt>
 File: ./resources/numpy.png Graphic file (type png)
 <use ./resources/numpy.png>
-Package pdftex.def Info: ./resources/numpy.png  used on input line 226.
+Package pdftex.def Info: ./resources/numpy.png  used on input line 235.
 (pdftex.def)             Requested size: 281.85587pt x 112.74295pt.
+ [45pdfTeX warning (ext4): destination with the same identifier (name{figure.3.17}) has been already used, duplicate ignored
 
-Overfull \hbox (9.67183pt too wide) in paragraph at lines 235--236
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.239         N
+               umPy est un package de traitement de tableau à usage génér... <./resources/python.png>]
+Overfull \hbox (9.67183pt too wide) in paragraph at lines 244--245
 []\OT1/cmr/m/n/12 Comp^^Setences utiles en alg^^Rebre lin^^Seaire, trans-form^^Sees de Fou-rier et nombres al^^Seatoires 
  []
 
-<./resources/pandas.png, id=852, 1204.5pt x 486.81876pt>
+<./resources/pandas.png, id=870, 1204.5pt x 486.81876pt>
 File: ./resources/pandas.png Graphic file (type png)
 <use ./resources/pandas.png>
-Package pdftex.def Info: ./resources/pandas.png  used on input line 244.
+Package pdftex.def Info: ./resources/pandas.png  used on input line 253.
 (pdftex.def)             Requested size: 281.85587pt x 113.91216pt.
-[45pdfTeX warning (ext4): destination with the same identifier (name{figure.3.18}) has been already used, duplicate ignored
+[46pdfTeX warning (ext4): destination with the same identifier (name{figure.3.18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.248         P
-               andas est l'un des outils de science des données et d'appren... <./resources/numpy.png>]
-<./resources/opencv.png, id=861, 429.605pt x 379.4175pt>
+l.261 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.261 
+       <./resources/numpy.png> <./resources/pandas.png>]
+<./resources/opencv.png, id=878, 429.605pt x 379.4175pt>
 File: ./resources/opencv.png Graphic file (type png)
 <use ./resources/opencv.png>
-Package pdftex.def Info: ./resources/opencv.png  used on input line 258.
+Package pdftex.def Info: ./resources/opencv.png  used on input line 267.
 (pdftex.def)             Requested size: 281.85587pt x 248.93422pt.
- [46pdfTeX warning (ext4): destination with the same identifier (name{figure.3.19}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.263 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.20}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.263 
-       <./resources/pandas.png> <./resources/opencv.png>]
-<./resources/tensorflow.png, id=868, 687.90334pt x 230.8625pt>
+<./resources/tensorflow.png, id=879, 687.90334pt x 230.8625pt>
 File: ./resources/tensorflow.png Graphic file (type png)
 <use ./resources/tensorflow.png>
-Package pdftex.def Info: ./resources/tensorflow.png  used on input line 270.
+Package pdftex.def Info: ./resources/tensorflow.png  used on input line 279.
 (pdftex.def)             Requested size: 281.85587pt x 94.59435pt.
-<./resources/keras.png, id=869, 1204.5pt x 349.305pt>
+ [47pdfTeX warning (ext4): destination with the same identifier (name{figure.3.20}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.281         \end{figure}
+                           <./resources/opencv.png>]
+<./resources/keras.png, id=885, 1204.5pt x 349.305pt>
 File: ./resources/keras.png Graphic file (type png)
 <use ./resources/keras.png>
-Package pdftex.def Info: ./resources/keras.png  used on input line 282.
+Package pdftex.def Info: ./resources/keras.png  used on input line 291.
 (pdftex.def)             Requested size: 281.85587pt x 81.7349pt.
- [47pdfTeX warning (ext4): destination with the same identifier (name{figure.3.21}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.286         K
-               eras est une API d'apprentissage en profondeur de haut niveau... <./resources/tensorflow.png>]
-<./resources/matplotlib.jpeg, id=877, 808.01875pt x 383.4325pt>
+<./resources/matplotlib.jpeg, id=886, 808.01875pt x 383.4325pt>
 File: ./resources/matplotlib.jpeg Graphic file (type jpg)
 <use ./resources/matplotlib.jpeg>
-Package pdftex.def Info: ./resources/matplotlib.jpeg  used on input line 294.
+Package pdftex.def Info: ./resources/matplotlib.jpeg  used on input line 303.
 (pdftex.def)             Requested size: 281.85587pt x 133.75287pt.
- [48pdfTeX warning (ext4): destination with the same identifier (name{figure.3.22}) has been already used, duplicate ignored
+ [48pdfTeX warning (ext4): destination with the same identifier (name{figure.3.21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.307     \end{enumerate}
-                         pdfTeX warning (ext4): destination with the same identifier (name{figure.3.23}) has been already used, duplicate ignored
+l.307         M
+               atplotlib est également l'une des bibliothèques les plus r�...pdfTeX warning (ext4): destination with the same identifier (name{figure.3.22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.307     \end{enumerate}
-                          <./resources/keras.png> <./resources/matplotlib.jpeg>]
-<./resources/jupyter.jpeg, id=885, 301.125pt x 168.63pt>
+l.307         M
+               atplotlib est également l'une des bibliothèques les plus r�... <./resources/tensorflow.png> <./resources/keras.png>]
+<./resources/jupyter.jpeg, id=896, 301.125pt x 168.63pt>
 File: ./resources/jupyter.jpeg Graphic file (type jpg)
 <use ./resources/jupyter.jpeg>
-Package pdftex.def Info: ./resources/jupyter.jpeg  used on input line 313.
+Package pdftex.def Info: ./resources/jupyter.jpeg  used on input line 322.
 (pdftex.def)             Requested size: 281.85587pt x 157.8535pt.
-<./resources/colab.png, id=886, 778.91pt x 344.28625pt>
+ [49pdfTeX warning (ext4): destination with the same identifier (name{figure.3.23}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.327 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.24}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.327 
+       <./resources/matplotlib.jpeg> <./resources/jupyter.jpeg>]
+<./resources/colab.png, id=903, 778.91pt x 344.28625pt>
 File: ./resources/colab.png Graphic file (type png)
 <use ./resources/colab.png>
-Package pdftex.def Info: ./resources/colab.png  used on input line 323.
+Package pdftex.def Info: ./resources/colab.png  used on input line 332.
 (pdftex.def)             Requested size: 281.85587pt x 124.5786pt.
- [49pdfTeX warning (ext4): destination with the same identifier (name{figure.3.24}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.331             A
-                   vec le Colab Pro/Pr, vous pouvez accéder à plus de ress...pdfTeX warning (ext4): destination with the same identifier (name{figure.3.25}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.331             A
-                   vec le Colab Pro/Pr, vous pouvez accéder à plus de ress... <./resources/jupyter.jpeg> <./resources/colab.png>]
-<./resources/marwan-hpc.png, id=894, 434.62375pt x 98.3675pt>
+<./resources/marwan-hpc.png, id=904, 434.62375pt x 98.3675pt>
 File: ./resources/marwan-hpc.png Graphic file (type png)
 <use ./resources/marwan-hpc.png>
-Package pdftex.def Info: ./resources/marwan-hpc.png  used on input line 348.
+Package pdftex.def Info: ./resources/marwan-hpc.png  used on input line 357.
 (pdftex.def)             Requested size: 281.85587pt x 63.7955pt.
-<./resources/slurm.png, id=895, 1204.5pt x 1102.1175pt>
-File: ./resources/slurm.png Graphic file (type png)
-<use ./resources/slurm.png>
-Package pdftex.def Info: ./resources/slurm.png  used on input line 366.
-(pdftex.def)             Requested size: 281.85587pt x 257.88773pt.
- [50pdfTeX warning (ext4): destination with the same identifier (name{figure.3.26}) has been already used, duplicate ignored
+ [50pdfTeX warning (ext4): destination with the same identifier (name{figure.3.25}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.368     \end{figure}
-                       <./resources/marwan-hpc.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+l.360     L
+           e Centre National de la Recherche Scientifique et Technique met �... <./resources/colab.png>]
+<./resources/slurm.png, id=911, 1204.5pt x 1102.1175pt>
+File: ./resources/slurm.png Graphic file (type png)
+<use ./resources/slurm.png>
+Package pdftex.def Info: ./resources/slurm.png  used on input line 375.
+(pdftex.def)             Requested size: 281.85587pt x 257.88773pt.
+ [51pdfTeX warning (ext4): destination with the same identifier (name{figure.3.26}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.380 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.27}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.380 
+       <./resources/marwan-hpc.png> <./resources/slurm.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
 \OT1/cmr/m/n/8 des images
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 408--408
+Underfull \hbox (badness 1264) in paragraph at lines 417--417
 \OT1/cmr/m/n/8 et de diag-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
 []|[]\OT1/cmr/m/n/8 Etiquettes
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 408--408
+Underfull \hbox (badness 1205) in paragraph at lines 417--417
 \OT1/cmr/m/n/8 sionn^^Se 1024
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
 \OT1/cmr/m/n/8 go-mery
  []
 
-[51pdfTeX warning (ext4): destination with the same identifier (name{figure.3.27}) has been already used, duplicate ignored
+[52pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.411     \subsection
-                     {CheXpertDB}\label{chexpertDB} <./resources/slurm.png>]) [52pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.120     \include{technique}
-                             ]
+l.424         \item S
+                     on accessibilité au public sans aucune formation préa...]) [53]
 \openout2 = `realisation.aux'.
 
  (/home/gharafi/Documents/My Repports/Xpedia Report/realisation.tex
 Chapitre 4.
-
-LaTeX Warning: Reference `fig:gantt' on page 53 undefined on input line 6.
-
-<./resources/xpedia_additem.png, id=914, 1639.12375pt x 981.6675pt>
-File: ./resources/xpedia_additem.png Graphic file (type png)
-<use ./resources/xpedia_additem.png>
-Package pdftex.def Info: ./resources/xpedia_additem.png  used on input line 15.
-(pdftex.def)             Requested size: 375.80544pt x 225.05978pt.
-<./resources/xpedia_add_image.png, id=915, 975.645pt x 314.17375pt>
-File: ./resources/xpedia_add_image.png Graphic file (type png)
-<use ./resources/xpedia_add_image.png>
-Package pdftex.def Info: ./resources/xpedia_add_image.png  used on input line 20.
-(pdftex.def)             Requested size: 375.80544pt x 121.01718pt.
-[53
+<./resources/gantt.png, id=945, 708.6475pt x 1844.8925pt>
+File: ./resources/gantt.png Graphic file (type png)
+<use ./resources/gantt.png>
+Package pdftex.def Info: ./resources/gantt.png  used on input line 22.
+(pdftex.def)             Requested size: 234.8775pt x 611.46259pt.
+[54
 
 
 
 ]
-<./resources/xpedia_fill_form.png, id=921, 988.69376pt x 304.13625pt>
+<./resources/xpedia_additem.png, id=952, 1639.12375pt x 981.6675pt>
+File: ./resources/xpedia_additem.png Graphic file (type png)
+<use ./resources/xpedia_additem.png>
+Package pdftex.def Info: ./resources/xpedia_additem.png  used on input line 29.
+(pdftex.def)             Requested size: 375.80544pt x 225.05978pt.
+<./resources/xpedia_add_image.png, id=953, 975.645pt x 314.17375pt>
+File: ./resources/xpedia_add_image.png Graphic file (type png)
+<use ./resources/xpedia_add_image.png>
+Package pdftex.def Info: ./resources/xpedia_add_image.png  used on input line 34.
+(pdftex.def)             Requested size: 375.80544pt x 121.01718pt.
+ [55pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.36 \end{figure}
+                  <./resources/gantt.png>]
+<./resources/xpedia_fill_form.png, id=960, 988.69376pt x 304.13625pt>
 File: ./resources/xpedia_fill_form.png Graphic file (type png)
 <use ./resources/xpedia_fill_form.png>
-Package pdftex.def Info: ./resources/xpedia_fill_form.png  used on input line 25.
+Package pdftex.def Info: ./resources/xpedia_fill_form.png  used on input line 39.
 (pdftex.def)             Requested size: 375.80544pt x 115.60081pt.
-<./resources/xpedia_normal_select.png, id=922, 421.575pt x 50.1875pt>
+<./resources/xpedia_normal_select.png, id=961, 421.575pt x 50.1875pt>
 File: ./resources/xpedia_normal_select.png Graphic file (type png)
 <use ./resources/xpedia_normal_select.png>
-Package pdftex.def Info: ./resources/xpedia_normal_select.png  used on input line 30.
+Package pdftex.def Info: ./resources/xpedia_normal_select.png  used on input line 44.
 (pdftex.def)             Requested size: 375.80544pt x 44.73947pt.
-<./resources/xpedia_normal_cr.png, id=923, 961.5925pt x 593.21625pt>
+<./resources/xpedia_normal_cr.png, id=962, 961.5925pt x 593.21625pt>
 File: ./resources/xpedia_normal_cr.png Graphic file (type png)
 <use ./resources/xpedia_normal_cr.png>
-Package pdftex.def Info: ./resources/xpedia_normal_cr.png  used on input line 35.
+Package pdftex.def Info: ./resources/xpedia_normal_cr.png  used on input line 49.
 (pdftex.def)             Requested size: 375.80544pt x 231.8422pt.
- [54pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
+ [56pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.37 \end{figure}
-                 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.37 \end{figure}
+l.51 \end{figure}
                  pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.37 \end{figure}
+l.51 \end{figure}
+                 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.51 \end{figure}
                   <./resources/xpedia_additem.png> <./resources/xpedia_add_image.png> <./resources/xpedia_fill_form.png>]
-<./resources/xpedia_research.png, id=932, 875.27pt x 122.4575pt>
+<./resources/xpedia_research.png, id=970, 875.27pt x 122.4575pt>
 File: ./resources/xpedia_research.png Graphic file (type png)
 <use ./resources/xpedia_research.png>
-Package pdftex.def Info: ./resources/xpedia_research.png  used on input line 40.
+Package pdftex.def Info: ./resources/xpedia_research.png  used on input line 54.
 (pdftex.def)             Requested size: 375.80544pt x 52.57907pt.
-<./resources/xpedia_item_thumbnail.png, id=933, 812.03375pt x 159.59625pt>
+<./resources/xpedia_item_thumbnail.png, id=971, 812.03375pt x 159.59625pt>
 File: ./resources/xpedia_item_thumbnail.png Graphic file (type png)
 <use ./resources/xpedia_item_thumbnail.png>
-Package pdftex.def Info: ./resources/xpedia_item_thumbnail.png  used on input line 46.
+Package pdftex.def Info: ./resources/xpedia_item_thumbnail.png  used on input line 60.
 (pdftex.def)             Requested size: 375.80544pt x 73.85837pt.
-<./resources/xpedia_view_showitem.png, id=934, 1927.2pt x 1084.05pt>
+<./resources/xpedia_view_showitem.png, id=972, 1927.2pt x 1084.05pt>
 File: ./resources/xpedia_view_showitem.png Graphic file (type png)
 <use ./resources/xpedia_view_showitem.png>
-Package pdftex.def Info: ./resources/xpedia_view_showitem.png  used on input line 51.
+Package pdftex.def Info: ./resources/xpedia_view_showitem.png  used on input line 65.
 (pdftex.def)             Requested size: 375.80544pt x 211.38063pt.
- [55pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.54 \subsection
-                {Preparation des données}pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.54 \subsection
-                {Preparation des données}pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.54 \subsection
-                {Preparation des données}pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.54 \subsection
-                {Preparation des données} <./resources/xpedia_normal_select.png> <./resources/xpedia_normal_cr.png> <./resources/xpedia_research.png> <./resources/xpedia_item_thumbnail.png>]
-
-LaTeX Warning: Reference `' on page 56 undefined on input line 55.
-
-<./resources/raw_data.png, id=944, 1737.49126pt x 328.22626pt>
+<./resources/raw_data.png, id=973, 1737.49126pt x 328.22626pt>
 File: ./resources/raw_data.png Graphic file (type png)
 <use ./resources/raw_data.png>
-Package pdftex.def Info: ./resources/raw_data.png  used on input line 58.
-(pdftex.def)             Requested size: 375.80544pt x 70.99297pt.
-<./resources/age_prep.png, id=945, 620.3175pt x 563.10374pt>
+Package pdftex.def Info: ./resources/raw_data.png  used on input line 70.
+(pdftex.def)             Requested size: 469.75502pt x 88.73746pt.
+ [57pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.72 \end{figure}
+                 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.72 \end{figure}
+                 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.72 \end{figure}
+                 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.72 \end{figure}
+                  <./resources/xpedia_normal_select.png> <./resources/xpedia_normal_cr.png> <./resources/xpedia_research.png> <./resources/xpedia_item_thumbnail.png>]
+<./resources/clean_data.png, id=983, 1642.135pt x 265.99374pt>
+File: ./resources/clean_data.png Graphic file (type png)
+<use ./resources/clean_data.png>
+Package pdftex.def Info: ./resources/clean_data.png  used on input line 75.
+(pdftex.def)             Requested size: 469.75502pt x 76.08905pt.
+<./resources/age_prep.png, id=985, 620.3175pt x 563.10374pt>
 File: ./resources/age_prep.png Graphic file (type png)
 <use ./resources/age_prep.png>
-Package pdftex.def Info: ./resources/age_prep.png  used on input line 63.
+Package pdftex.def Info: ./resources/age_prep.png  used on input line 83.
 (pdftex.def)             Requested size: 375.80544pt x 341.1385pt.
-<./resources/nan_fill.png, id=946, 1738.495pt x 342.27875pt>
-File: ./resources/nan_fill.png Graphic file (type png)
-<use ./resources/nan_fill.png>
-Package pdftex.def Info: ./resources/nan_fill.png  used on input line 68.
-(pdftex.def)             Requested size: 375.80544pt x 73.98541pt.
-[56pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8}) has been already used, duplicate ignored
+ [58pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.70 \end{figure}
-                 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9}) has been already used, duplicate ignored
+l.86 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.70 \end{figure}
-                  <./resources/xpedia_view_showitem.png> <./resources/raw_data.png>]
-<./resources/input_output.png, id=953, 991.705pt x 439.6425pt>
-File: ./resources/input_output.png Graphic file (type png)
-<use ./resources/input_output.png>
-Package pdftex.def Info: ./resources/input_output.png  used on input line 76.
-(pdftex.def)             Requested size: 375.80544pt x 166.603pt.
- [57pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.79 
+l.86 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.4.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.79 
-      <./resources/age_prep.png> <./resources/nan_fill.png>]
-<./resources/mixed_inputs.png, id=960, 461.725pt x 631.35875pt>
-File: ./resources/mixed_inputs.png Graphic file (type png)
-<use ./resources/mixed_inputs.png>
-Package pdftex.def Info: ./resources/mixed_inputs.png  used on input line 86.
-(pdftex.def)             Requested size: 375.80544pt x 513.87366pt.
- [58pdfTeX warning (ext4): destination with the same identifier (name{figure.4.12}) has been already used, duplicate ignored
+l.86 
+      <./resources/xpedia_view_showitem.png> <./resources/raw_data.png> <./resources/clean_data.png>]
+<./resources/input_output.png, id=993, 991.705pt x 439.6425pt>
+File: ./resources/input_output.png Graphic file (type png)
+<use ./resources/input_output.png>
+Package pdftex.def Info: ./resources/input_output.png  used on input line 92.
+(pdftex.def)             Requested size: 469.75502pt x 208.24872pt.
+<./resources/bin-histo.png, id=994, 669.50125pt x 1634.105pt>
+File: ./resources/bin-histo.png Graphic file (type png)
+<use ./resources/bin-histo.png>
+Package pdftex.def Info: ./resources/bin-histo.png  used on input line 102.
+(pdftex.def)             Requested size: 187.89914pt x 458.61847pt.
+ [59pdfTeX warning (ext4): destination with the same identifier (name{figure.4.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.89 D
-      ans les paragraphes suivan
+l.104 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (name{figure.4.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.104 \end{figure}
+                   <./resources/age_prep.png> <./resources/input_output.png>] [60pdfTeX warning (ext4): destination with the same identifier (name{figure.4.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.108     \item
+                couche Conv2D avec la fonction d'activation Relu <./resources/bin-histo.png>]
+<./resources/binary_model_arc.png, id=1006, 849.1725pt x 539.01375pt>
+File: ./resources/binary_model_arc.png Graphic file (type png)
+<use ./resources/binary_model_arc.png>
+Package pdftex.def Info: ./resources/binary_model_arc.png  used on input line 124.
+(pdftex.def)             Requested size: 375.80544pt x 238.5403pt.
+ [61pdfTeX warning (ext4): destination with the same identifier (name{figure.4.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.137 \section
+              {Experiences} <./resources/binary_model_arc.png>]
+<./resources/binary_history.png, id=1024, 1060.96375pt x 572.1375pt>
+File: ./resources/binary_history.png Graphic file (type png)
+<use ./resources/binary_history.png>
+Package pdftex.def Info: ./resources/binary_history.png  used on input line 145.
+(pdftex.def)             Requested size: 469.75502pt x 253.32143pt.
+<./resources/abnormal_history_01.png, id=1025, 973.6375pt x 657.45625pt>
+File: ./resources/abnormal_history_01.png Graphic file (type png)
+<use ./resources/abnormal_history_01.png>
+Package pdftex.def Info: ./resources/abnormal_history_01.png  used on input line 159.
+(pdftex.def)             Requested size: 375.80544pt x 253.75847pt.
+<./resources/abnormal_history_02.png, id=1026, 879.285pt x 617.30624pt>
+File: ./resources/abnormal_history_02.png Graphic file (type png)
+<use ./resources/abnormal_history_02.png>
+Package pdftex.def Info: ./resources/abnormal_history_02.png  used on input line 164.
+(pdftex.def)             Requested size: 375.80544pt x 263.83522pt.
+ [62pdfTeX warning (ext4): destination with the same identifier (name{figure.4.16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.166 \end{figure}
+                   <./resources/binary_history.png>] [63pdfTeX warning (ext4): destination with the same identifier (name{figure.4.17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.170     \item P
+                 rends les modèles résultant des expériences précédente...pdfTeX warning (ext4): destination with the same identifier (name{figure.4.18}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.170     \item P
+                 rends les modèles résultant des expériences précédente... <./resources/abnormal_history_01.png> <./resources/abnormal_history_02.png>]
+Overfull \hbox (17.53853pt too wide) in paragraph at lines 170--171
+\OT1/cmr/m/n/12 donn^^Sees de la po-pu-la-tion p^^Sediatrique pour avoir des mod^^Reles de clas-si-fi-ca-tion binaire/multi-
+ []
+
+<./resources/binary_accuracy.png, id=1042, 943.525pt x 669.50125pt>
+File: ./resources/binary_accuracy.png Graphic file (type png)
+<use ./resources/binary_accuracy.png>
+Package pdftex.def Info: ./resources/binary_accuracy.png  used on input line 188.
+(pdftex.def)             Requested size: 234.8775pt x 166.65979pt.
+<./resources/binary_loss.png, id=1043, 369.38pt x 269.005pt>
+File: ./resources/binary_loss.png Graphic file (type png)
+<use ./resources/binary_loss.png>
+Package pdftex.def Info: ./resources/binary_loss.png  used on input line 193.
+(pdftex.def)             Requested size: 234.8775pt x 171.05023pt.
+[64pdfTeX warning (ext4): destination with the same identifier (name{figure.4.19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.196         C
+               omme nous le voyons dans les 2 graphiques, se référant à l... <./resources/binary_accuracy.png>]
+<./resources/normal_vs_abnormal.png, id=1055, 643.40375pt x 498.86375pt>
+File: ./resources/normal_vs_abnormal.png Graphic file (type png)
+<use ./resources/normal_vs_abnormal.png>
+Package pdftex.def Info: ./resources/normal_vs_abnormal.png  used on input line 200.
+(pdftex.def)             Requested size: 234.8775pt x 182.1104pt.
+ [65pdfTeX warning (ext4): destination with the same identifier (name{figure.4.20}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.208         \end{enumerate}
+                             pdfTeX warning (ext4): destination with the same identifier (name{figure.4.21}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.208         \end{enumerate}
+                              <./resources/binary_loss.png> <./resources/normal_vs_abnormal.png>]
+<./resources/testing_results.png, id=1063, 1184.425pt x 93.34875pt>
+File: ./resources/testing_results.png Graphic file (type png)
+<use ./resources/testing_results.png>
+Package pdftex.def Info: ./resources/testing_results.png  used on input line 211.
+(pdftex.def)             Requested size: 469.75502pt x 37.02261pt.
+<./resources/example_app.png, id=1064, 1160.335pt x 198.7425pt>
+File: ./resources/example_app.png Graphic file (type png)
+<use ./resources/example_app.png>
+Package pdftex.def Info: ./resources/example_app.png  used on input line 218.
+(pdftex.def)             Requested size: 469.75502pt x 80.45993pt.
+<./resources/multi_accuracy.png, id=1069, 1459.4525pt x 735.74875pt>
+File: ./resources/multi_accuracy.png Graphic file (type png)
+<use ./resources/multi_accuracy.png>
+Package pdftex.def Info: ./resources/multi_accuracy.png  used on input line 231.
+(pdftex.def)             Requested size: 469.75502pt x 236.81406pt.
+ [66pdfTeX warning (ext4): destination with the same identifier (name{figure.4.22}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.234 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.4.23}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.234 
+       <./resources/testing_results.png> <./resources/example_app.png>]
+<./resources/multi_loss.png, id=1078, 1460.45625pt x 735.74875pt>
+File: ./resources/multi_loss.png Graphic file (type png)
+<use ./resources/multi_loss.png>
+Package pdftex.def Info: ./resources/multi_loss.png  used on input line 237.
+(pdftex.def)             Requested size: 469.75502pt x 236.64565pt.
+ [67pdfTeX warning (ext4): destination with the same identifier (name{figure.4.24}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.244 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.4.25}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.244 
+       <./resources/multi_accuracy.png> <./resources/multi_loss.png>]) [68] [69
+
+
+] [70
+
+
+] [71] [72]
+<./resources/xpedia_log.png, id=1142, 643.40375pt x 565.11125pt>
+File: ./resources/xpedia_log.png Graphic file (type png)
+<use ./resources/xpedia_log.png>
+Package pdftex.def Info: ./resources/xpedia_log.png  used on input line 240.
+(pdftex.def)             Requested size: 234.8775pt x 206.29407pt.
+<./resources/xpedia_dashboard.png, id=1143, 1165.35374pt x 458.71375pt>
+File: ./resources/xpedia_dashboard.png Graphic file (type png)
+<use ./resources/xpedia_dashboard.png>
+Package pdftex.def Info: ./resources/xpedia_dashboard.png  used on input line 245.
+(pdftex.def)             Requested size: 469.75502pt x 184.90312pt.
+<./resources/xpedia_menu.png, id=1144, 1193.45876pt x 135.50626pt>
+File: ./resources/xpedia_menu.png Graphic file (type png)
+<use ./resources/xpedia_menu.png>
+Package pdftex.def Info: ./resources/xpedia_menu.png  used on input line 250.
+(pdftex.def)             Requested size: 469.75502pt x 53.33517pt.
+ [73
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.26}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.252     \end{figure}
+                       <./resources/xpedia_log.png>]
+<./resources/xpedia_select_section.png, id=1151, 424.58624pt x 782.925pt>
+File: ./resources/xpedia_select_section.png Graphic file (type png)
+<use ./resources/xpedia_select_section.png>
+Package pdftex.def Info: ./resources/xpedia_select_section.png  used on input line 255.
+(pdftex.def)             Requested size: 187.89914pt x 346.48312pt.
+<./resources/xpedia_select_items.png, id=1152, 351.3125pt x 204.765pt>
+File: ./resources/xpedia_select_items.png Graphic file (type png)
+<use ./resources/xpedia_select_items.png>
+Package pdftex.def Info: ./resources/xpedia_select_items.png  used on input line 260.
+(pdftex.def)             Requested size: 187.89914pt x 109.52162pt.
+ [74pdfTeX warning (ext4): destination with the same identifier (name{figure.4.27}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.262     \end{figure}
+                      pdfTeX warning (ext4): destination with the same identifier (name{figure.4.28}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.262     \end{figure}
+                       <./resources/xpedia_dashboard.png> <./resources/xpedia_menu.png>]
+<./resources/xpedia_cr.png, id=1159, 975.645pt x 501.875pt>
+File: ./resources/xpedia_cr.png Graphic file (type png)
+<use ./resources/xpedia_cr.png>
+Package pdftex.def Info: ./resources/xpedia_cr.png  used on input line 265.
+(pdftex.def)             Requested size: 469.75502pt x 241.64774pt.
+<./resources/xpedia_browse_item.png, id=1160, 1911.14pt x 982.67125pt>
+File: ./resources/xpedia_browse_item.png Graphic file (type png)
+<use ./resources/xpedia_browse_item.png>
+Package pdftex.def Info: ./resources/xpedia_browse_item.png  used on input line 270.
+(pdftex.def)             Requested size: 469.75502pt x 241.52876pt.
+ [75pdfTeX warning (ext4): destination with the same identifier (name{figure.4.29}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.272     \end{figure}
+                      pdfTeX warning (ext4): destination with the same identifier (name{figure.4.30}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.272     \end{figure}
+                       <./resources/xpedia_select_section.png> <./resources/xpedia_select_items.png>]
+<./resources/xpedia_filter_section.png, id=1167, 426.59375pt x 593.21625pt>
+File: ./resources/xpedia_filter_section.png Graphic file (type png)
+<use ./resources/xpedia_filter_section.png>
+Package pdftex.def Info: ./resources/xpedia_filter_section.png  used on input line 275.
+(pdftex.def)             Requested size: 187.89914pt x 261.29655pt.
+<./resources/xpedia_pagination.png, id=1168, 869.2475pt x 446.66875pt>
+File: ./resources/xpedia_pagination.png Graphic file (type png)
+<use ./resources/xpedia_pagination.png>
+Package pdftex.def Info: ./resources/xpedia_pagination.png  used on input line 280.
+(pdftex.def)             Requested size: 469.75502pt x 241.38837pt.
+ [76pdfTeX warning (ext4): destination with the same identifier (name{figure.4.31}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.282     \end{figure}
+                      pdfTeX warning (ext4): destination with the same identifier (name{figure.4.32}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.282     \end{figure}
+                       <./resources/xpedia_cr.png> <./resources/xpedia_browse_item.png>]
+<./resources/xpedia_view_page.png, id=1175, 1926.19624pt x 946.53625pt>
+File: ./resources/xpedia_view_page.png Graphic file (type png)
+<use ./resources/xpedia_view_page.png>
+Package pdftex.def Info: ./resources/xpedia_view_page.png  used on input line 286.
+(pdftex.def)             Requested size: 469.75502pt x 230.82741pt.
+ [77pdfTeX warning (ext4): destination with the same identifier (name{figure.4.33}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.289 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.4.34}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.289 
+       <./resources/xpedia_filter_section.png> <./resources/xpedia_pagination.png>]
+<./resources/xpedia_edit_page.png, id=1182, 1927.2pt x 1084.05pt>
+File: ./resources/xpedia_edit_page.png Graphic file (type png)
+<use ./resources/xpedia_edit_page.png>
+Package pdftex.def Info: ./resources/xpedia_edit_page.png  used on input line 292.
+(pdftex.def)             Requested size: 469.75502pt x 264.22992pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 299.
+ [78pdfTeX warning (ext4): destination with the same identifier (name{figure.4.35}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.299 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier (name{figure.4.36}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.299 \end{document}
+                     <./resources/xpedia_view_page.png> <./resources/xpedia_edit_page.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 299.
+ (/home/gharafi/Documents/My Repports/Xpedia Report/main.aux (/home/gharafi/Documents/My Repports/Xpedia Report/general_project_context.aux) (/home/gharafi/Documents/My Repports/Xpedia Report/deeplearning.aux) (/home/gharafi/Documents/My Repports/Xpedia Report/technique.aux) (/home/gharafi/Documents/My Repports/Xpedia Report/realisation.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 299.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 299.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 9FF46283D99C7010BA813A571E064ADA;5545.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 299.
+ ) 
+Here is how much of TeX's memory you used:
+ 11834 strings out of 481239
+ 195971 string characters out of 5920377
+ 498712 words of memory out of 5000000
+ 26461 multiletter control sequences out of 15000+600000
+ 542620 words of font info for 60 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 34i,13n,37p,1323b,742s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on "/home/gharafi/Documents/My Repports/Xpedia Report/main.pdf" (78 pages, 10816382 bytes).
+PDF statistics:
+ 1314 PDF objects out of 1440 (max. 8388607)
+ 1070 compressed objects within 11 object streams
+ 345 named destinations out of 1000 (max. 500000)
+ 937 words of extra memory for PDF output out of 10000 (max. 10000000)
+

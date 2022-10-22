@@ -13,33 +13,39 @@ Dans tout ce qui précède, nous pouvons remarquer une structure légèrement di
 
     Pour ce faire, on doit utiliser une base de données secondaire. Il s'agit d'une grande base de données structurée de la population adulte, pour construire des modéles pré-entraînés sur des donnéees de la population adulte, Un phénomène décidément très proche du nôtre.
     Après tous ces considérations on a trouver la structure du figure \ref{fig:structure_gen}
+
+    \subsection{Application Web}
+        L'application Web est une API simple pour la collection et la visualisation de données, donc son architecture de base est également simple, c'est comme suit figure \ref{fig:xpedia_arc}.
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.7\textwidth]{structure_gen.jpg}
-        \caption{structure génerale du projet}\label{fig:structure_gen}
+        \includegraphics[width=\textwidth]{structure_gen.jpg}
+        \caption{La structure génerale du projet}\label{fig:structure_gen}
     \end{figure}
-    \subsection{Application Web}
-        L'application Web est une API simple pour la collection et la visualisation de données, donc son architecture de base est également simple, c'est comme suit figure \ref{fig:xpedia_arc}
+    
+
+        \subsubsection{UML}
+            UML (abréviation de Unified Modeling Language) est un langage de modélisation standardisé composé d'un ensemble de diagrammes intégrés qui aident les développeurs de systèmes et de logiciels à spécifier, visualiser et visualiser les artefacts des systèmes logiciels. .système. UML représente un ensemble éprouvé de meilleures pratiques techniques pour la modélisation de systèmes vastes et complexes et constitue une partie très importante du développement logiciel orienté objet et du processus de développement logiciel. UML utilise principalement une notation graphique pour représenter la conception de projets logiciels.
+            \begin{enumerate}
+                \item Diagramme de classe:
+                Notre diagramme de classe de  deux classes utilisateur et xray (cliché), notre but de cette application et de collectés les données (xrays), l'acteur qui va effectuer la collection est l'utilisateur \ref{fig:class_dia}.
+
+                \item Diagrammes de séquence
+                Un diagramme de séquence représente les objets impliqués dans une interaction particulière et les messages qu'ils échangent organisés par ordre chronologique.
+
         \begin{figure}[H]
             \centering
             \includegraphics[width=1\textwidth]{xpedia_arc.png}
-            \caption{structure génerale de l'application web Xpedia}\label{fig:xpedia_arc}
+            \caption{La structure génerale de l'application web Xpedia}\label{fig:xpedia_arc}
         \end{figure}
-        \subsubsection{UML}
-            UML (abréviation de Unified Modeling Language) est un langage de modélisation standardisé composé d'un ensemble de diagrammes intégrés qui aident les développeurs de systèmes et de logiciels à spécifier, visualiser et visualiser les artefacts des systèmes logiciels. .système. UML représente un ensemble éprouvé de meilleures pratiques techniques pour la modélisation de systèmes vastes et complexes et constitue une partie très importante du développement logiciel orienté objet et du processus de développement logiciel. UML utilise principalement une notation graphique pour représenter la conception de projets logiciels.
-
-            \begin{enumerate}
-                \item Diagramme de classe:
-                Notre diagramme de classe de  deux classes utilisateur et xray (cliché), notre but de cette application et de collectés les données (xrays), l'acteur qui va effectuer la collection est l'utilisateur:
+                
+                
                 \begin{figure}[H]
                     \centering
                     \includegraphics[width=0.8\textwidth]{class_dia.png}
                     \caption{Le diagramme de classe de l'application web Xpedia}\label{fig:class_dia}
                 \end{figure}
 
-                \item Diagrammes de séquence
                 
-                Un diagramme de séquence représente les objets impliqués dans une interaction particulière et les messages qu'ils échangent organisés par ordre chronologique.
                 \begin{enumerate}
                     \item Diagramme de séquence: cas d'authentification
                     \begin{figure}[H]
@@ -97,19 +103,20 @@ Dans tout ce qui précède, nous pouvons remarquer une structure légèrement di
     La partie commune des deux modèles est:
     Tout d'abord un modèle binaire pré-classifie les rayons X en normaux ou anormaux
     Ensuite, un modèle multi-étiqueté suit pour affiner davantage la classification de l'anomalie.
-
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=1\textwidth]{adulte_model_train.png}
-        \caption{La schéma de créeation du modèle des radiographies adultes}\label{fig:adulte_model_schema}
-    \end{figure}
     \paragraph*{Modèles de la population pédiatrique} Le but de modèle de la population adulte est d'agir comme un modèle initial à former sur les données pédiatriques.
     Ce qui met en évidence l'utilisation de modèles adultes comme modèles initiaux dans le processus d'apprentissage par transfert, pour la création des modèle pédiatriques suivant la structure de la figure \ref{fig:pedia_model_schema}.
 
     \begin{figure}[H]
         \centering
-        \includegraphics[width=1\textwidth]{pedia_model_train.png}
-        \caption{La schéma de créeation du modèle des radiographies adultes}\label{fig:pedia_model_schema}
+        \includegraphics[width=0.8\textwidth]{model-adult-vert.png}
+        \caption{Le schéma de création du modèle des radiographies adultes}\label{fig:adulte_model_schema}
+    \end{figure}
+    
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{model-ped-vert.png}
+        \caption{Le schéma de création du modèle des radiographies pédiatriques}\label{fig:pedia_model_schema}
     \end{figure}
 \section{Choix techniques}
 Cette partie est consacrée à la présentation de l'environnement matériel et logiciel utilisé pour développer la solution proposée. Expliquer les décisions techniques concernant les langages de programmation et les outils à utiliser.
@@ -122,7 +129,7 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
     \begin{figure}[H]
         \centering
         \includegraphics[width=1\textwidth]{log_arc.jpg}
-        \caption{La schéma de logicielle de l'application web Xpedia}\label{fig:log_arc}
+        \caption{Le schéma de logicielle de l'application web Xpedia}\label{fig:log_arc}
     \end{figure}
 
     \subsubsection{MERN stack}
@@ -145,7 +152,7 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
         \begin{figure}[H]
             \centering
             \includegraphics[width=0.6\textwidth]{atlass_mdb.png}
-            \caption{Logo de Atlas MongoDB}\label{fig:atlass_mdb}
+            \caption{Le logo de Atlas MongoDB}\label{fig:atlass_mdb}
         \end{figure}
         \normalfont
         MongoDB Atlas est une plateforme de données de développeur multi-cloud. Au cœur se trouve notre base de données cloud entièrement gérée pour les applications modernes. Atlas est le meilleur moyen d'exécuter MongoDB, la principale base de données non relationnelle. Le modèle de document de MongoDB est le moyen le plus rapide d'innover car les documents correspondent directement aux objets de votre code. En conséquence, ils sont beaucoup plus faciles et plus naturels à travailler. Vous pouvez stocker des données de n'importe quelle structure et modifier votre schéma à tout moment lorsque vous ajoutez de nouvelles fonctionnalités à vos applications.
@@ -156,23 +163,25 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
         \begin{figure}[H]
             \centering
             \includegraphics[width=0.6\textwidth]{express.png}
-            \caption{Logo de Express Node JS}\label{fig:express}
+            \caption{Le logo de Express Node JS}\label{fig:express}
         \end{figure}
         \normalfont
         Express est un cadre d'application Web Node.js minimal et flexible qui fournit un ensemble  de fonctionnalités robustes pour les applications Web et mobiles. 
         Express fournit une fine couche de fonctionnalités d'application Web de base sans masquer les fonctionnalités familières de Node.js.
         \bfseries
         \item React\newline
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=0.6\textwidth]{react.png}
-            \caption{Logo de ReactJS}\label{fig:react}
-        \end{figure}
         \normalfont
         React est une bibliothèque JavaScript pour créer des interfaces utilisateur. 
 
         Déclaratif: React facilite la création d'interfaces utilisateur interactives. Concevez une vue simple pour chaque état de votre application et React mettra à jour et affichera efficacement le composant approprié à mesure que les  données changent. Une vue déclarative rend votre code plus prévisible, plus facile à comprendre et plus facile à déboguer. 
  
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\textwidth]{react.png}
+            \caption{Le logo de ReactJS}\label{fig:react}
+        \end{figure}
+        
+        
         Basé sur les composants: créez des composants encapsulés qui gèrent leur propre état et combinez-les pour créer des interfaces utilisateur complexes. Étant donné que la logique des composants est écrite en JavaScript au lieu de modèles, vous pouvez facilement transmettre de grandes quantités de données  via votre application et conserver l'état en dehors du DOM.
  
         Apprenez une fois, écrivez n'importe où: nous ne faisons aucune hypothèse sur le reste de la pile technologique, vous pouvez donc développer de nouvelles fonctionnalités dans React sans réécrire le code existant. React peut également utiliser Node pour le rendu sur le serveur  et React Native pour exécuter des applications mobiles.
@@ -183,7 +192,7 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.6\textwidth]{heroku.png}
-        \caption{Logo de Heroku}\label{fig:heroku}
+        \caption{Le logo de Heroku}\label{fig:heroku}
     \end{figure}
 
     Heroku est une plate-forme de services cloud qui a gagné en popularité  ces dernières années. Heroku est si facile à utiliser qu'il est devenu le choix incontournable pour de nombreux projets de développement. 
@@ -193,14 +202,14 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.6\textwidth]{github.png}
-        \caption{Logo de GitHub}\label{fig:github}
+        \caption{Le logo de GitHub}\label{fig:github}
     \end{figure}
     GitHub est une ressource de programmation de plus en plus populaire utilisée pour le partage de code. Il s'agit d'un site de réseautage social pour les programmeurs que de nombreuses entreprises et organisations utilisent pour faciliter la gestion de projet et la collaboration. Selon les statistiques recueillies en octobre 2020, il s'agit de l'hébergeur de code source le plus important, avec plus de 60 millions de nouveaux référentiels créés en 2020 et comptant plus de 56 millions de développeurs au total.
     \subsubsection{Visual Studio Code}
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.6\textwidth]{vscode.png}
-        \caption{Logo de Visual Studio Code}\label{fig:vscode}
+        \caption{Le logo de Visual Studio Code}\label{fig:vscode}
     \end{figure}
     Visual Studio Code est un éditeur de code source léger mais puissant qui s'exécute sur votre bureau et est disponible sur Windows, macOS et Linux. Il offre un support intégré pour JavaScript, TypeScript et Node.js, et dispose d'un riche écosystème d'extensions pour d'autres langages et runtimes (C, C\#, Java, Python, PHP, Go, dotNET, etc.).
 
@@ -212,7 +221,7 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.6\textwidth]{python.png}
-        \caption{Logo de Python}\label{fig:python}
+        \caption{Le logo de Python}\label{fig:python}
     \end{figure}
 
     Python est un langage de programmation polyvalent populaire qui peut être utilisé pour une grande variété d'applications. Il comprend des structures de données de haut niveau, un typage dynamique, une liaison dynamique et de nombreuses autres fonctionnalités qui aident à développer des applications aussi  complexes que  le "code de colle" qui relie les scripts et les composants. Vous pouvez également  effectuer des appels système pour presque tous les systèmes d'exploitation et les étendre pour exécuter du C ou du code écrit en C. En raison de son omniprésence et de sa capacité à s'exécuter sur presque toutes les architectures système, Python est un langage universel qui peut être utilisé dans une grande variété d'applications.
@@ -224,7 +233,7 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
         \begin{figure}[H]
             \centering
             \includegraphics[width=0.6\textwidth]{numpy.png}
-            \caption{Logo de Numpy}\label{fig:numpy}
+            \caption{Le logo de Numpy}\label{fig:numpy}
         \end{figure}
         \normalfont
         NumPy est un package de traitement de tableau à usage général. Fournit des objets et des outils de tableau multidimensionnel hautes performances  pour manipuler ces tableaux. Package de base pour le calcul scientifique  Python. C'est un logiciel open source.Il contient diverses fonctionnalités dont ces importantes:
@@ -242,7 +251,7 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
         \begin{figure}[H]
             \centering
             \includegraphics[width=0.6\textwidth]{pandas.png}
-            \caption{Logo de Pandas}\label{fig:pandas}
+            \caption{Le logo de Pandas}\label{fig:pandas}
         \end{figure}
         \normalfont
         Pandas est l'un des outils de science des données et d'apprentissage automatique les plus utilisés pour nettoyer et analyser les données. 
@@ -256,7 +265,7 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
         \begin{figure}[H]
             \centering
             \includegraphics[width=0.6\textwidth]{opencv.png}
-            \caption{Logo de Open Computer Vision}\label{fig:opencv}
+            \caption{Le logo de Open Computer Vision}\label{fig:opencv}
         \end{figure}
         \normalfont
         OpenCV (Open Source Computer Vision Library) est une bibliothèque de logiciels open source de vision par ordinateur et d'apprentissage automatique. OpenCV a été développé pour fournir une infrastructure commune pour les applications de vision par ordinateur et  accélérer l'utilisation de la vision artificielle dans les produits commerciaux. OpenCV est un produit sous licence BSD, les entreprises peuvent donc facilement utiliser et  modifier  le code.
@@ -268,7 +277,7 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
         \begin{figure}[H]
             \centering
             \includegraphics[width=0.6\textwidth]{tensorflow.png}
-            \caption{Logo de Tensorflow}\label{fig:tensorflow}
+            \caption{Le logo de Tensorflow}\label{fig:tensorflow}
         \end{figure}
         \normalfont
         TensorFlow est une plate-forme d'apprentissage automatique open source de bout en bout. TensorFlow est un système complet de gestion de tous les aspects des systèmes d'apprentissage automatique. Cependant, ce cours se concentre sur le développement et la formation de modèles d'apprentissage automatique à l'aide d'API TensorFlow spécifiques. 
@@ -280,7 +289,7 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
         \begin{figure}[H]
             \centering
             \includegraphics[width=0.6\textwidth]{keras.png}
-            \caption{Logo de Keras}\label{fig:keras}
+            \caption{Le logo de Keras}\label{fig:keras}
         \end{figure}
         \normalfont
         Keras est une API d'apprentissage en profondeur de haut niveau développée par Google pour la mise en œuvre de réseaux de neurones. Il est écrit en Python et est utilisé pour faciliter la mise en œuvre de réseaux de neurones. Il prend également en charge plusieurs calculs de  réseaux neuronaux principaux. 
@@ -292,7 +301,7 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
         \begin{figure}[H]
             \centering
             \includegraphics[width=0.6\textwidth]{matplotlib.jpeg}
-            \caption{Logo de Matplotlib}\label{fig:matplotlib}
+            \caption{Le logo de Matplotlib}\label{fig:matplotlib}
         \end{figure}
         \normalfont
         Matplotlib est également l'une des bibliothèques les plus réussies et les plus utilisées, fournissant divers outils de visualisation de données en Python. 
@@ -311,7 +320,7 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
         \begin{figure}[H]
             \centering
             \includegraphics[width=0.6\textwidth]{jupyter.jpeg}
-            \caption{Logo de Jupyter}\label{fig:jupyter}
+            \caption{Le logo de Jupyter}\label{fig:jupyter}
         \end{figure}
         \normalfont
         Jupyter est une application Web permettant de programmer dans plus de 40 langages de programmation, dont Python, Julia, Ruby, R ou  Scala. Il s'agit d'un projet communautaire visant à développer des logiciels libres, des formats ouverts et des services pour l'informatique interactive. Jupyter est une évolution du projet IPython. Jupyter vous permet de créer des blocs-notes, des programmes contenant à la fois du texte  et du code Markdown. Ces cahiers sont utilisés  pour explorer et analyser des données en science des données.
@@ -321,7 +330,7 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
         \begin{figure}[H]
             \centering
             \includegraphics[width=0.6\textwidth]{colab.png}
-            \caption{Logo de Colab}\label{fig:colab}
+            \caption{Le logo de Colab}\label{fig:colab}
         \end{figure}
         \normalfont
         Le service Google Colaboratory, ou Google Colab en abrégé, vous permet d'exécuter du code Python dans un navigateur Web dans ce que l'on appelle des "notebooks". Il est utilisé pour l'apprentissage en profondeur, le partage et le travail sur des projets de science des données avec d'autres.
@@ -346,7 +355,7 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.6\textwidth]{marwan-hpc.png}
-        \caption{Logo de HPC-MARWAN}\label{fig:marwan-hpc}
+        \caption{Le logo de HPC-MARWAN}\label{fig:marwan-hpc}
     \end{figure}
     Le Centre National de la Recherche Scientifique et Technique met à la disposition de la communauté des chercheurs marocains une infrastructure de Calcul Haute Performance (HPC) accessible à distance.
 
@@ -364,7 +373,7 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.6\textwidth]{slurm.png}
-        \caption{Logo de SLURM}\label{fig:slurm}
+        \caption{Le logo de SLURM}\label{fig:slurm}
     \end{figure}
 
     Slurm est un système de gestion de cluster et de planification des tâches open source, tolérant aux pannes et hautement évolutif pour les grands et petits clusters Linux. Slurm ne nécessite aucune modification du noyau pour son fonctionnement et est relativement autonome. En tant que gestionnaire de charge de travail de cluster, Slurm a trois fonctions clés. Premièrement, il alloue un accès exclusif et/ou non exclusif aux ressources (noeuds de calcul) aux utilisateurs pendant une certaine durée afin qu'ils puissent effectuer un travail. Deuxièmement, il fournit un cadre pour démarrer, exécuter et surveiller le travail (normalement un travail parallèle) sur l'ensemble des noeuds alloués. Enfin, il arbitre les conflits de ressources en gérant une file d'attente de travaux en attente. Des plug-ins facultatifs peuvent être utilisés pour la comptabilité, la réservation avancée, la planification des équipes (partage du temps pour les tâches parallèles), la planification des remplissages, la sélection des ressources optimisée pour la topologie, les limites de ressources par utilisateur ou compte bancaire et les algorithmes sophistiqués de hiérarchisation des tâches multifactorielles.
@@ -418,7 +427,6 @@ Cette partie est consacrée à la présentation de l'environnement matériel et 
         
 
     \end{itemize}
-    \subsection{XpediaDB}
 
 \section*{Conclusion}
 Pour mettre en œuvre ces concepts et techniques nous allons détailler dans le paragraphe suivant les différentes étapes suivies et leurs livrables qui matérialise la stratégie proposée.

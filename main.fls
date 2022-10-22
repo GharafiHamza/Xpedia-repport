@@ -108,12 +108,18 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.aux
@@ -148,16 +154,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.toc
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
@@ -184,7 +183,9 @@ OUTPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.equ
 OUTPUT /home/gharafi/Documents/My Repports/Xpedia Report/general_project_context.aux
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/general_project_context.tex
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/general_project_context.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/icon_chu.png
 INPUT ./resources/icon_chu.png
@@ -231,6 +232,9 @@ INPUT ./resources/multi_layer_perce.png
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/conv_stand_arch.png
 INPUT ./resources/conv_stand_arch.png
 INPUT ./resources/conv_stand_arch.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/transfered.png
+INPUT ./resources/transfered.png
+INPUT ./resources/transfered.png
 OUTPUT /home/gharafi/Documents/My Repports/Xpedia Report/technique.aux
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/technique.tex
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/technique.tex
@@ -251,12 +255,12 @@ INPUT ./resources/cas_add.png
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/data-preprocessing.jpg
 INPUT ./resources/data-preprocessing.jpg
 INPUT ./resources/data-preprocessing.jpg
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/adulte_model_train.png
-INPUT ./resources/adulte_model_train.png
-INPUT ./resources/adulte_model_train.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/pedia_model_train.png
-INPUT ./resources/pedia_model_train.png
-INPUT ./resources/pedia_model_train.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/model-adult-vert.png
+INPUT ./resources/model-adult-vert.png
+INPUT ./resources/model-adult-vert.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/model-ped-vert.png
+INPUT ./resources/model-ped-vert.png
+INPUT ./resources/model-ped-vert.png
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/log_arc.jpg
 INPUT ./resources/log_arc.jpg
 INPUT ./resources/log_arc.jpg
@@ -322,6 +326,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 OUTPUT /home/gharafi/Documents/My Repports/Xpedia Report/realisation.aux
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/realisation.tex
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/realisation.tex
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/gantt.png
+INPUT ./resources/gantt.png
+INPUT ./resources/gantt.png
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_additem.png
 INPUT ./resources/xpedia_additem.png
 INPUT ./resources/xpedia_additem.png
@@ -349,18 +356,18 @@ INPUT ./resources/xpedia_view_showitem.png
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/raw_data.png
 INPUT ./resources/raw_data.png
 INPUT ./resources/raw_data.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/clean_data.png
+INPUT ./resources/clean_data.png
+INPUT ./resources/clean_data.png
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/age_prep.png
 INPUT ./resources/age_prep.png
 INPUT ./resources/age_prep.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/nan_fill.png
-INPUT ./resources/nan_fill.png
-INPUT ./resources/nan_fill.png
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/input_output.png
 INPUT ./resources/input_output.png
 INPUT ./resources/input_output.png
-INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/mixed_inputs.png
-INPUT ./resources/mixed_inputs.png
-INPUT ./resources/mixed_inputs.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/bin-histo.png
+INPUT ./resources/bin-histo.png
+INPUT ./resources/bin-histo.png
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/binary_model_arc.png
 INPUT ./resources/binary_model_arc.png
 INPUT ./resources/binary_model_arc.png
@@ -373,3 +380,86 @@ INPUT ./resources/abnormal_history_01.png
 INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/abnormal_history_02.png
 INPUT ./resources/abnormal_history_02.png
 INPUT ./resources/abnormal_history_02.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/binary_accuracy.png
+INPUT ./resources/binary_accuracy.png
+INPUT ./resources/binary_accuracy.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/binary_loss.png
+INPUT ./resources/binary_loss.png
+INPUT ./resources/binary_loss.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/normal_vs_abnormal.png
+INPUT ./resources/normal_vs_abnormal.png
+INPUT ./resources/normal_vs_abnormal.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/testing_results.png
+INPUT ./resources/testing_results.png
+INPUT ./resources/testing_results.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/example_app.png
+INPUT ./resources/example_app.png
+INPUT ./resources/example_app.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/multi_accuracy.png
+INPUT ./resources/multi_accuracy.png
+INPUT ./resources/multi_accuracy.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/multi_loss.png
+INPUT ./resources/multi_loss.png
+INPUT ./resources/multi_loss.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_log.png
+INPUT ./resources/xpedia_log.png
+INPUT ./resources/xpedia_log.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_dashboard.png
+INPUT ./resources/xpedia_dashboard.png
+INPUT ./resources/xpedia_dashboard.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_menu.png
+INPUT ./resources/xpedia_menu.png
+INPUT ./resources/xpedia_menu.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_select_section.png
+INPUT ./resources/xpedia_select_section.png
+INPUT ./resources/xpedia_select_section.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_select_items.png
+INPUT ./resources/xpedia_select_items.png
+INPUT ./resources/xpedia_select_items.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_cr.png
+INPUT ./resources/xpedia_cr.png
+INPUT ./resources/xpedia_cr.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_browse_item.png
+INPUT ./resources/xpedia_browse_item.png
+INPUT ./resources/xpedia_browse_item.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_filter_section.png
+INPUT ./resources/xpedia_filter_section.png
+INPUT ./resources/xpedia_filter_section.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_pagination.png
+INPUT ./resources/xpedia_pagination.png
+INPUT ./resources/xpedia_pagination.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_view_page.png
+INPUT ./resources/xpedia_view_page.png
+INPUT ./resources/xpedia_view_page.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/./resources/xpedia_edit_page.png
+INPUT ./resources/xpedia_edit_page.png
+INPUT ./resources/xpedia_edit_page.png
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.aux
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/general_project_context.aux
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/general_project_context.aux
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/deeplearning.aux
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/deeplearning.aux
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/technique.aux
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/technique.aux
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/realisation.aux
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/realisation.aux
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.out
+INPUT /home/gharafi/Documents/My Repports/Xpedia Report/main.out
+INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy6.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb
